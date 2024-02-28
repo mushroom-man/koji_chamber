@@ -1,0 +1,103 @@
+#!/usr/bin/env python3
+
+import time
+import board
+import busio
+import adafruit_scd30
+from gpiozero import OutputDevice
+import random
+import warnings
+
+warnings.filerwarnings("ignor")
+
+# Growth parameters
+temperature_bounds = (30, 32)  # (lower bound, upper bound)
+humidity_bounds = (70, 75)  # Adjust these values as needed
+co2_bounds = (700, 800)  # Adjust these values as needed
+
+# Define mean and standard deviation for normal distribution
+mean = 15  # Replace x with your desired mean
+std_dev = 4  # Replace y with your desired standard deviation
+
+# Initialize I2C bus and SCD30 sensor
+i2c = busio.I2C(board.SCL, board.SDA, frequency=50000)
+scd30 = adafruit_scd30.SCD30(i2c)
+
+# Relay GPIO pins (change these to your GPIO pins)
+humidifier_relay = OutputDevice(17)
+heater_relay = OutputDevice(27)
+internal_fan_relay = OutputDevice(22)
+external_fan_relay = OutputDevice(23)
+
+def get_random_fan_state():
+    # Generate a random value from a normal distribution
+    value = random.gauss(mean, std_dev)
+    
+    # Define a threshold. This could be the mean, or any value you choose
+    threshold = mean  # For example, use the mean as the threshold
+    
+    # Determine fan state based on whether value is above or below the threshold
+    fan_state = value > threshold  # True if value is above the threshold, False otherwise
+    
+    return fan_state
+
+
+def report_device_status():
+    devices = {
+        "Humidifier": humidifier_relay,
+        "Heater": heater_relay,
+        "Internal Fan": internal_fan_relay,
+        "External Fan": external_fan_relay,
+    }
+
+    for device_name, device in devices.items():
+        status = "on" if device.value else "off"
+        print(f"{device_name} is {status}")
+
+def control_environment():
+    while True:
+        if scd30.data_available:
+            # Read sensor data
+            co2 = scd30.CO2
+            temp = scd30.temperature
+            humidity = scd30.relative_humidity
+
+            # Control humidifier with hysteresis
+            if humidity < humidity_bounds[0]:
+                humidifier_relay.on()
+            elif humidity > humidity_bounds[1]:
+                humidifier_relay.off()
+
+            # Control heater with hysteresis
+            if temp < temperature_bounds[0]:
+                heater_relay.on()
+            elif temp > temperature_bounds[1]:
+                heater_relay.off()
+
+            # Control internal fan based on random state
+            fan_state = get_random_fan_state()
+            
+            if fan_state:
+                internal_fan_relay.on()
+            else:
+                internal_fan_relay.off()
+                
+            # Control external fan for CO2 with hysteresis
+            if co2 > co2_bounds[1]:
+                external_fan_relay.on()
+            elif co2 < co2_bounds[0]:
+                external_fan_relay.off()
+
+            # Print sensor data
+            print(f"CO2 level: {co2:.2f}")
+            print(f"Temperature: {temp:.2f}")
+            print(f"Humidity: {humidity:.2f}")
+
+        # Report device status
+        report_device_status()
+
+        time.sleep(10)  # Check every 10 seconds
+
+if __name__ == "__main__":
+    control_environment()
+
