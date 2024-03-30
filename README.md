@@ -1,7 +1,3 @@
-Certainly! Below is a sample README.md file for your project:
-
----
-
 # Raspberry Pi Environment Controller
 
 This Python script for Raspberry Pi uses an SHT31-D sensor to monitor temperature and humidity, controlling a fan, heater, and humidifier based on the readings. It logs the data, including device states, to a CSV file on a USB drive.
@@ -49,7 +45,10 @@ This Python script for Raspberry Pi uses an SHT31-D sensor to monitor temperatur
 ## Customization
 
 - Modify GPIO pin assignments for fan, heater, and humidifier as per your hardware setup.
-- Adjust temperature and humidity thresholds according to your environmental control needs.
+- Adjust temperature and humidity thresholds according to your environmental control needs.--
+
+To use this README, simply create a `README.md` file in your project directory and copy the content into it. You might need to adjust paths, hardware setup, and customization details based on your specific project needs.
+
 - Change the CSV file path if using a different mount point for the USB drive.
 
 ## Safety
@@ -60,7 +59,3 @@ This Python script for Raspberry Pi uses an SHT31-D sensor to monitor temperatur
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE.md).
-
----
-
-To use this README, simply create a `README.md` file in your project directory and copy the content into it. You might need to adjust paths, hardware setup, and customization details based on your specific project needs.
