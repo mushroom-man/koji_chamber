@@ -81,8 +81,8 @@ try:
         # Delay before next reading
         time.sleep(5)
 
+
 except KeyboardInterrupt:
     print("Program terminated by user.")
 finally:
     GPIO.cleanup()  # Clean up GPIO resources
-
