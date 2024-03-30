@@ -1,105 +1,88 @@
 import board
 import busio
-import adafruit_sht31d  # Import the SHT31D library
+import adafruit_sht31d
 import time
 import RPi.GPIO as GPIO
+import csv
+import os
 
 # GPIO setup
-HUMIDIFIER_PIN = 17  # Example GPIO pin
-HEATER_PIN = 27  # Example GPIO pin
-FAN_PIN = 22  # Example GPIO pin
+FAN_PIN = 17
+HEATER_PIN = 27
+HUMIDIFIER_PIN = 22
 
-# GPIO access
+# Set up GPIO pins
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(HUMIDIFIER_PIN, GPIO.OUT)
-GPIO.setup(HEATER_PIN, GPIO.OUT)
-GPIO.setup(FAN_PIN, GPIO.OUT)
+GPIO.setup(FAN_PIN, GPIO.OUT, initial=GPIO.LOW)
+GPIO.setup(HEATER_PIN, GPIO.OUT, initial=GPIO.LOW)
+GPIO.setup(HUMIDIFIER_PIN, GPIO.OUT, initial=GPIO.LOW)
 
-# Bounds
-TEMP_UPPER_BOUND = 32  # value in Celsius
-TEMP_LOWER_BOUND = 28  # value in Celsius
-HUMIDITY_UPPER_BOUND = 80  # value in %
-HUMIDITY_LOWER_BOUND = 85  # value in %
+# Environmental thresholds
+TEMP_UPPER_BOUND = 32
+TEMP_LOWER_BOUND = 28
+HUMIDITY_UPPER_BOUND = 85
+HUMIDITY_LOWER_BOUND = 80
 
 # Fan timing
-FAN_INTERVAL = 3 * 10  # 3 minutes expressed in seconds
-last_fan_activation = time.time() - FAN_INTERVAL  # Ensures the fan can activate immediately
+FAN_INTERVAL = 3 * 60  # 3 minutes in seconds
+last_fan_activation = time.time() - FAN_INTERVAL  # Ensure the fan can activate immediately
 
-# Create I2C bus
-try:
-    i2c = busio.I2C(board.SCL, board.SDA)
-except Exception as e:
-    print("Error initializing I2C bus:", e)
-    exit(1)
+# CSV file setup
+file_path = '/media/johnhenry/EC18-177D/koji_data.csv'
+# Write headers if file is new
+if not os.path.exists(file_path) or os.path.getsize(file_path) == 0:
+    with open(file_path, 'a', newline='') as csvfile:
+        data_writer = csv.writer(csvfile)
+        data_writer.writerow(['Time', 'Temperature', 'Humidity', 'Fan', 'Heater', 'Humidifier'])
 
-# Create the SHT31-D sensor object
-try:
-    sht31 = adafruit_sht31d.SHT31D(i2c)
-except Exception as e:
-    print("Error initializing SHT31-D sensor:", e)
-    exit(1)
+# Initialize I2C and SHT31-D sensor
+i2c = busio.I2C(board.SCL, board.SDA)
+sht31d = adafruit_sht31d.SHT31D(i2c)
 
 # Main loop
 try:
     while True:
-        current_time = time.time()
-        # Read temperature and humidity from SHT31
-        temperature = sht31.temperature
-        humidity = sht31.relative_humidity
-
-        # Temperature control logic
-        if temperature > TEMP_UPPER_BOUND:
-            GPIO.output(HEATER_PIN, GPIO.LOW)  # Turn off the heater
-        elif temperature < TEMP_LOWER_BOUND:
-            GPIO.output(HEATER_PIN, GPIO.HIGH)  # Turn on the heater
-        else:
-            GPIO.output(HEATER_PIN, GPIO.LOW)  # Ensure heater is off
-
-        # Humidity control logic
-        if humidity > HUMIDITY_UPPER_BOUND:
-            GPIO.output(HUMIDIFIER_PIN, GPIO.LOW)  # Turn off the humidifier
-        elif humidity < HUMIDITY_LOWER_BOUND:
-            GPIO.output(HUMIDIFIER_PIN, GPIO.HIGH)  # Turn on the humidifier
-        else:
-            GPIO.output(HUMIDIFIER_PIN, GPIO.LOW)  # Ensure humidifier is off
-
-        # Print the sensor readings
-        print(f"Temperature: {temperature:.2f} °C, Humidity: {humidity:.2f} %")
+        # Read sensor data
+        temperature = round(sht31d.temperature, 3)
+        humidity = round(sht31d.relative_humidity, 3)
         
+        # Control logic
+        heater_state = GPIO.input(HEATER_PIN)
+        humidifier_state = GPIO.input(HUMIDIFIER_PIN)
 
-        # Automated fan activation based on the interval
-        if current_time - last_fan_activation >= FAN_INTERVAL:
-            GPIO.output(FAN_PIN, GPIO.HIGH)  # Turn on the fan
-            print("Fan is ON")
-            last_fan_activation = current_time  # Reset the last activation time
-        else:
-            # Check if the fan should be turned off after running for a certain duration
-            # Adjust the duration according to your needs
-            if current_time - last_fan_activation >= 60:  # Fan runs for 1 minute
-                GPIO.output(FAN_PIN, GPIO.LOW)  # Turn off the fan
-                print("Fan is OFF")
+        if temperature < TEMP_LOWER_BOUND:
+            GPIO.output(HEATER_PIN, GPIO.HIGH)
+            heater_state = 1
+        elif temperature > TEMP_UPPER_BOUND:
+            GPIO.output(HEATER_PIN, GPIO.LOW)
+            heater_state = 0
 
-        # Check the status of the heater
-        if GPIO.input(HEATER_PIN) == GPIO.LOW:  # If the heater pin is LOW, heater is OFF
-            print("Heater is OFF")
-        else:  # Otherwise, the heater pin is HIGH, and the heater is ON
-            print("Heater is ON")
-            
-        # Check the status of the humidifier
-        if GPIO.input(HUMIDIFIER_PIN) == GPIO.LOW:  # If the heater pin is LOW, heater is OFF
-            print("Humidifier is OFF")
-        else:  # Otherwise, the heater pin is HIGH, and the heater is ON
-            print("Humidifier is ON")
-            print()
+        if humidity < HUMIDITY_LOWER_BOUND:
+            GPIO.output(HUMIDIFIER_PIN, GPIO.HIGH)
+            humidifier_state = 1
+        elif humidity > HUMIDITY_UPPER_BOUND:
+            GPIO.output(HUMIDIFIER_PIN, GPIO.LOW)
+            humidifier_state = 0
 
-        # Delay between readings
+        fan_state = GPIO.input(FAN_PIN)
+        if time.time() - last_fan_activation >= FAN_INTERVAL:
+            GPIO.output(FAN_PIN, GPIO.HIGH)
+            fan_state = 1
+            last_fan_activation = time.time()
+
+        # Print status
+        print(f"Time: {time.strftime('%Y-%m-%d %H:%M:%S')}, Temperature: {temperature} °C, Humidity: {humidity}%, Fan: {'ON' if fan_state else 'OFF'}, Heater: {'ON' if heater_state else 'OFF'}, Humidifier: {'ON' if humidifier_state else 'OFF'}")
+
+        # Log data to CSV
+        with open(file_path, 'a', newline='') as csvfile:
+            data_writer = csv.writer(csvfile)
+            data_writer.writerow([time.strftime('%Y-%m-%d %H:%M:%S'), temperature, humidity, fan_state, heater_state, humidifier_state])
+
+        # Delay before next reading
         time.sleep(5)
-        
-except RuntimeError as e:
-    # Handle runtime errors related to GPIO access
-    print(f"Runtime error accessing GPIO: {e}")
-    
+
 except KeyboardInterrupt:
-    print("Program terminated by user")
-    GPIO.cleanup()  # Clean up GPIO pins before exiting
+    print("Program terminated by user.")
+finally:
+    GPIO.cleanup()  # Clean up GPIO resources
 
