@@ -5,13 +5,47 @@ import time
 import RPi.GPIO as GPIO
 import csv
 import os
+import glob
+import logging
+
+# Setup logging
+logging.basicConfig(filename='/media/johnhenry/EC18-177D/koji_log.log', level=logging.INFO, format='%(asctime)s %(levelname)s:%(message)s')
+
+# Initialize One-Wire for DS18B20
+os.system('modprobe w1-gpio')
+os.system('modprobe w1-therm')
+
+# Discover DS18B20 device
+base_dir = '/sys/bus/w1/devices/'
+device_folder = glob.glob(base_dir + '28*')[0]
+device_file = device_folder + '/w1_slave'
+
+def read_temp_raw():
+    try:
+        with open(device_file, 'r') as f:
+            valid, temp_line = f.readlines()
+        return valid, temp_line
+    except FileNotFoundError:
+        logging.error("DS18B20 sensor file not found.")
+        return None, None
+
+def read_temp():
+    valid, temp_line = read_temp_raw()
+    while valid and 'YES' not in valid:
+        time.sleep(0.2)
+        valid, temp_line = read_temp_raw()
+    if temp_line:
+        equals_pos = temp_line.find('t=')
+        if equals_pos != -1:
+            temp_string = temp_line[equals_pos + 2:]
+            temp_c = float(temp_string) / 1000.0
+            return temp_c
+    return None  # Return None if there was a problem reading the temperature
 
 # GPIO setup
 FAN_PIN = 17
 HEATER_PIN = 27
 HUMIDIFIER_PIN = 22
-
-# Set up GPIO pins
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(FAN_PIN, GPIO.OUT, initial=GPIO.LOW)
 GPIO.setup(HEATER_PIN, GPIO.OUT, initial=GPIO.LOW)
@@ -25,30 +59,31 @@ HUMIDITY_LOWER_BOUND = 80
 
 # Fan timing
 FAN_INTERVAL = 3 * 60  # 3 minutes in seconds
-last_fan_activation = time.time() - FAN_INTERVAL  # Ensure the fan can activate immediately
-FAN_DURATION = 60  # Duration the fan stays on in seconds, adjust as needed
-next_fan_deactivation = 0  # Time by which the fan should be turned off
-# Note that the fan interval must be greater than the fan duration in order for the fan to turn
-# turn on and off.
+last_fan_activation = time.time() - FAN_INTERVAL
+FAN_DURATION = 60
+next_fan_deactivation = 0
 
 # CSV file setup
 file_path = '/media/johnhenry/EC18-177D/koji_data.csv'
-# Write headers if file is new
 if not os.path.exists(file_path) or os.path.getsize(file_path) == 0:
     with open(file_path, 'a', newline='') as csvfile:
         data_writer = csv.writer(csvfile)
-        data_writer.writerow(['Time', 'Temperature', 'Humidity', 'Fan', 'Heater', 'Humidifier'])
+        data_writer.writerow(['Time', 'Temperature', 'Humidity', 'Rice Temperature', 'Fan', 'Heater', 'Humidifier'])
 
 # Initialize I2C and SHT31-D sensor
 i2c = busio.I2C(board.SCL, board.SDA)
 sht31d = adafruit_sht31d.SHT31D(i2c)
 
-# Main loop
 try:
     while True:
-        # Read sensor data
         temperature = round(sht31d.temperature, 3)
         humidity = round(sht31d.relative_humidity, 3)
+        rice_temp = read_temp()
+        if rice_temp is not None:
+            rice_temp = round(rice_temp, 3)
+        else:
+            logging.error("Failed to read rice temperature")
+            continue  # Skip this loop iteration if temperature read failed
         
         # Active low relay control logic adjustment
         heater_state = not GPIO.input(HEATER_PIN)  # Invert the logic
@@ -83,7 +118,7 @@ try:
             fan_state = 0
 
         # Print status
-        print(f"Time: {time.strftime('%Y-%m-%d %H:%M:%S')}, Temperature: {temperature} °C, Humidity: {humidity}%, Fan: {'ON' if fan_state else 'OFF'}, Heater: {'ON' if heater_state else 'OFF'}, Humidifier: {'ON' if humidifier_state else 'OFF'}")
+        print(f"Time: {time.strftime('%Y-%m-%d %H:%M:%S')}, Temperature: {temperature} °C, Humidity: {humidity}%, Rice: {rice_temp} °C, Fan: {'ON' if fan_state else 'OFF'}, Heater: {'ON' if heater_state else 'OFF'}, Humidifier: {'ON' if humidifier_state else 'OFF'}")
 
         # Log data to CSV
         with open(file_path, 'a', newline='') as csvfile:
@@ -102,5 +137,6 @@ try:
 except KeyboardInterrupt:
     print("Program terminated by user.")
 finally:
-    GPIO.cleanup()  # Clean up GPIO resources
+    GPIO.cleanup()  # Ensure GPIO resources are released properly
+    logging.info("System shut down and GPIO cleaned up.")
 
