@@ -1,0 +1,22 @@
+temperature:
+  upper_bound: 32
+  lower_bound: 28
+
+humidity:
+  upper_bound: 85
+  lower_bound: 80
+
+gpio:
+  heater_pin: 27
+  humidifier_pin: 22
+
+paths:
+  data_dir: /media/johnhenry/EC18-177D
+  log_file: koji_log.txt
+  error_log: koji_errors.log
+  csv_file: koji_data.csv
+
+lcd:
+  i2c_addresses: [39, 63, 32]  # 0x27, 0x3F, 0x20 in decimal
+  cols: 16
+  rows: 2
