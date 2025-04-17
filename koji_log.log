@@ -1,0 +1,1633 @@
+2025-04-17 15:33:10,025 INFO:Heater relay initialized on pin 27
+2025-04-17 15:33:10,026 INFO:Humidifier relay initialized on pin 22
+2025-04-17 15:33:10,026 INFO:Fan relay initialized on pin 17
+2025-04-17 15:33:10,026 INFO:Koji chamber control system initialized successfully
+2025-04-17 15:33:10,026 INFO:Koji chamber control system started
+2025-04-17 15:33:10,026 INFO:Fan activated for 60 seconds
+2025-04-17 15:33:10,027 INFO:Readings: Temp=31.0, Humidity=88.09, Rice=30.4, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:33:15,028 INFO:Readings: Temp=31.25, Humidity=88.51, Rice=30.53, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:33:20,030 INFO:Readings: Temp=31.5, Humidity=88.88, Rice=30.65, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:33:25,031 INFO:Readings: Temp=31.74, Humidity=89.21, Rice=30.78, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:33:30,032 INFO:Readings: Temp=31.98, Humidity=89.48, Rice=30.9, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:33:35,034 INFO:Readings: Temp=32.21, Humidity=89.7, Rice=31.02, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:33:40,035 INFO:Readings: Temp=32.44, Humidity=89.86, Rice=31.13, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:33:45,037 INFO:Readings: Temp=32.65, Humidity=89.96, Rice=31.24, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:33:50,038 INFO:Readings: Temp=32.86, Humidity=90.0, Rice=31.34, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:33:55,039 INFO:Readings: Temp=33.05, Humidity=89.98, Rice=31.43, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:34:00,041 INFO:Readings: Temp=33.22, Humidity=89.89, Rice=31.52, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:34:05,042 INFO:Readings: Temp=33.38, Humidity=89.75, Rice=31.61, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:34:10,043 INFO:Fan deactivated
+2025-04-17 15:34:10,044 INFO:Readings: Temp=33.52, Humidity=89.55, Rice=31.68, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:34:15,046 INFO:Readings: Temp=33.65, Humidity=89.29, Rice=31.75, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:34:20,047 INFO:Readings: Temp=33.76, Humidity=88.97, Rice=31.81, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:34:25,049 INFO:Readings: Temp=33.85, Humidity=88.61, Rice=31.86, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:34:30,050 INFO:Readings: Temp=33.92, Humidity=88.21, Rice=31.91, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:34:35,052 INFO:Readings: Temp=33.96, Humidity=87.76, Rice=31.94, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:34:40,053 INFO:Readings: Temp=33.99, Humidity=87.28, Rice=31.97, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:34:45,054 INFO:Readings: Temp=34.0, Humidity=86.78, Rice=31.99, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:34:50,056 INFO:Readings: Temp=33.99, Humidity=86.25, Rice=32.0, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:34:55,059 INFO:Readings: Temp=33.95, Humidity=85.7, Rice=32.0, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:35:00,062 INFO:Readings: Temp=33.9, Humidity=85.15, Rice=31.99, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:35:05,064 INFO:Readings: Temp=33.82, Humidity=84.59, Rice=31.97, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:35:10,065 INFO:Readings: Temp=33.73, Humidity=84.04, Rice=31.95, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:35:15,069 INFO:Readings: Temp=33.61, Humidity=83.5, Rice=31.91, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:35:20,071 INFO:Readings: Temp=33.48, Humidity=82.98, Rice=31.87, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:35:25,077 INFO:Readings: Temp=33.33, Humidity=82.49, Rice=31.82, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:35:30,078 INFO:Readings: Temp=33.17, Humidity=82.02, Rice=31.76, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:35:35,080 INFO:Readings: Temp=32.99, Humidity=81.6, Rice=31.69, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:35:40,081 INFO:Readings: Temp=32.79, Humidity=81.21, Rice=31.62, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:35:45,085 INFO:Readings: Temp=32.59, Humidity=80.87, Rice=31.53, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:35:50,093 INFO:Readings: Temp=32.37, Humidity=80.59, Rice=31.44, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:35:55,093 INFO:Readings: Temp=32.14, Humidity=80.35, Rice=31.35, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:36:00,094 INFO:Readings: Temp=31.91, Humidity=80.18, Rice=31.25, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:36:05,095 INFO:Readings: Temp=31.67, Humidity=80.06, Rice=31.14, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:36:10,095 INFO:Fan activated for 60 seconds
+2025-04-17 15:36:10,096 INFO:Readings: Temp=31.42, Humidity=80.0, Rice=31.03, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:36:14,279 INFO:Received signal 2, shutting down
+2025-04-17 15:36:15,096 INFO:Cleaning up resources...
+2025-04-17 15:36:15,198 INFO:GPIO resources cleaned up
+2025-04-17 15:36:15,198 INFO:System shut down and resources cleaned up
+2025-04-17 15:36:46,787 INFO:Heater relay initialized on pin 27
+2025-04-17 15:36:46,787 INFO:Humidifier relay initialized on pin 22
+2025-04-17 15:36:46,787 INFO:Fan relay initialized on pin 17
+2025-04-17 15:36:46,787 INFO:Koji chamber control system initialized successfully
+2025-04-17 15:36:46,788 INFO:Koji chamber control system started
+2025-04-17 15:36:46,788 INFO:Fan activated for 60 seconds
+2025-04-17 15:36:46,790 INFO:Readings: Temp=31.0, Humidity=87.98, Rice=29.62, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:36:51,793 INFO:Readings: Temp=33.72, Humidity=80.21, Rice=28.08, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:36:56,801 INFO:Readings: Temp=28.72, Humidity=89.7, Rice=30.75, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:37:01,622 INFO:Received signal 2, shutting down
+2025-04-17 15:37:01,803 INFO:Cleaning up resources...
+2025-04-17 15:37:01,905 INFO:GPIO resources cleaned up
+2025-04-17 15:37:01,905 INFO:System shut down and resources cleaned up
+2025-04-17 15:37:16,410 INFO:Heater relay initialized on pin 27
+2025-04-17 15:37:16,411 INFO:Humidifier relay initialized on pin 22
+2025-04-17 15:37:16,411 INFO:Fan relay initialized on pin 17
+2025-04-17 15:37:16,411 INFO:Koji chamber control system initialized successfully
+2025-04-17 15:37:16,411 INFO:Koji chamber control system started
+2025-04-17 15:37:16,411 INFO:Fan activated for 60 seconds
+2025-04-17 15:37:16,412 INFO:Readings: Temp=31.0, Humidity=87.99, Rice=29.62, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:37:21,413 INFO:Readings: Temp=33.73, Humidity=80.21, Rice=28.08, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:37:26,415 INFO:Readings: Temp=28.73, Humidity=89.69, Rice=30.75, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:37:31,416 INFO:Readings: Temp=30.17, Humidity=82.27, Rice=31.77, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:37:36,417 INFO:Readings: Temp=33.97, Humidity=84.69, Rice=28.91, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:37:41,419 INFO:Readings: Temp=29.36, Humidity=88.23, Rice=28.44, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:37:46,420 INFO:Readings: Temp=29.4, Humidity=80.13, Rice=31.39, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:37:51,422 INFO:Readings: Temp=33.97, Humidity=89.58, Rice=31.29, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:37:56,423 INFO:Readings: Temp=30.12, Humidity=82.53, Rice=28.36, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:38:01,424 INFO:Readings: Temp=28.76, Humidity=84.37, Rice=29.02, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:38:06,425 INFO:Readings: Temp=33.75, Humidity=88.47, Rice=31.83, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:38:11,426 INFO:Readings: Temp=30.95, Humidity=80.07, Rice=30.63, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:38:16,426 INFO:Fan deactivated
+2025-04-17 15:38:16,427 INFO:Readings: Temp=28.29, Humidity=89.44, Rice=28.05, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:38:21,429 INFO:Readings: Temp=33.3, Humidity=82.82, Rice=29.75, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:38:26,430 INFO:Readings: Temp=31.79, Humidity=84.06, Rice=32.0, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:38:31,431 INFO:Readings: Temp=28.04, Humidity=88.69, Rice=29.87, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:38:36,433 INFO:Readings: Temp=32.68, Humidity=80.03, Rice=28.03, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:38:41,434 INFO:Readings: Temp=32.56, Humidity=89.29, Rice=30.51, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:38:46,436 INFO:Readings: Temp=28.02, Humidity=83.1, Rice=31.88, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:38:51,443 INFO:Readings: Temp=31.93, Humidity=83.77, Rice=29.12, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:38:56,446 INFO:Readings: Temp=33.21, Humidity=88.88, Rice=28.3, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:39:01,448 INFO:Readings: Temp=28.23, Humidity=80.0, Rice=31.21, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:39:06,448 INFO:Readings: Temp=31.1, Humidity=89.13, Rice=31.47, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:39:11,450 INFO:Readings: Temp=33.68, Humidity=83.38, Rice=28.51, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:39:16,451 INFO:Readings: Temp=28.66, Humidity=83.47, Rice=28.81, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:39:21,452 INFO:Readings: Temp=30.26, Humidity=89.07, Rice=31.72, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:39:26,454 INFO:Readings: Temp=33.95, Humidity=80.0, Rice=30.86, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:39:31,456 INFO:Readings: Temp=29.28, Humidity=88.94, Rice=28.12, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:39:36,457 INFO:Readings: Temp=29.48, Humidity=83.68, Rice=29.51, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:39:41,459 INFO:Readings: Temp=33.99, Humidity=83.17, Rice=31.98, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:39:46,460 INFO:Readings: Temp=30.03, Humidity=89.25, Rice=30.11, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:39:51,461 INFO:Readings: Temp=28.82, Humidity=80.02, Rice=28.0, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:39:56,462 INFO:Readings: Temp=33.78, Humidity=88.74, Rice=30.27, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:40:01,464 INFO:Readings: Temp=30.86, Humidity=83.99, Rice=31.95, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:40:06,464 INFO:Readings: Temp=28.34, Humidity=82.88, Rice=29.36, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:40:11,465 INFO:Readings: Temp=33.36, Humidity=89.41, Rice=28.18, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:40:16,466 INFO:Fan activated for 60 seconds
+2025-04-17 15:40:16,469 INFO:Readings: Temp=31.7, Humidity=80.06, Rice=30.99, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:40:21,470 INFO:Readings: Temp=28.06, Humidity=88.53, Rice=31.63, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:40:26,471 INFO:Readings: Temp=32.76, Humidity=84.29, Rice=28.69, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:40:31,472 INFO:Readings: Temp=32.48, Humidity=82.6, Rice=28.62, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:40:36,474 INFO:Readings: Temp=28.01, Humidity=89.54, Rice=31.57, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:40:41,475 INFO:Readings: Temp=32.01, Humidity=80.11, Rice=31.08, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:40:46,477 INFO:Readings: Temp=33.14, Humidity=88.3, Rice=28.22, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:40:51,478 INFO:Readings: Temp=28.2, Humidity=84.61, Rice=29.27, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:40:56,262 INFO:Received signal 2, shutting down
+2025-04-17 15:40:56,482 INFO:Cleaning up resources...
+2025-04-17 15:40:56,584 INFO:GPIO resources cleaned up
+2025-04-17 15:40:56,585 INFO:System shut down and resources cleaned up
+2025-04-17 15:40:59,002 INFO:Heater relay initialized on pin 27
+2025-04-17 15:40:59,002 INFO:Humidifier relay initialized on pin 22
+2025-04-17 15:40:59,002 INFO:Fan relay initialized on pin 17
+2025-04-17 15:40:59,002 INFO:Koji chamber control system initialized successfully
+2025-04-17 15:40:59,002 INFO:Koji chamber control system started
+2025-04-17 15:40:59,003 INFO:Fan activated for 60 seconds
+2025-04-17 15:40:59,003 INFO:Readings: Temp=29.0, Humidity=82.99, Rice=29.62, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:41:04,004 INFO:Humidifier activated (humidity=75.21%)
+2025-04-17 15:41:04,006 INFO:Readings: Temp=31.73, Humidity=75.21, Rice=28.08, Fan=1, Heater=0, Humidifier=1
+2025-04-17 15:41:09,007 INFO:Heater activated (temp=26.73°C)
+2025-04-17 15:41:09,008 INFO:Readings: Temp=26.73, Humidity=84.7, Rice=30.75, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:41:14,009 INFO:Readings: Temp=28.17, Humidity=77.26, Rice=31.77, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:41:19,011 INFO:Readings: Temp=31.97, Humidity=79.69, Rice=28.91, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:41:24,012 INFO:Readings: Temp=27.36, Humidity=83.23, Rice=28.44, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:41:29,014 INFO:Readings: Temp=27.4, Humidity=75.13, Rice=31.39, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:41:34,015 INFO:Readings: Temp=31.97, Humidity=84.58, Rice=31.29, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:41:39,017 INFO:Readings: Temp=28.12, Humidity=77.53, Rice=28.36, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:41:44,018 INFO:Readings: Temp=26.76, Humidity=79.38, Rice=29.02, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:41:49,018 INFO:Readings: Temp=31.75, Humidity=83.46, Rice=31.83, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:41:54,022 INFO:Readings: Temp=28.95, Humidity=75.07, Rice=30.63, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:41:59,023 INFO:Fan deactivated
+2025-04-17 15:41:59,024 INFO:Readings: Temp=26.29, Humidity=84.45, Rice=28.05, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:42:04,025 INFO:Readings: Temp=31.31, Humidity=77.81, Rice=29.75, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:42:09,026 INFO:Readings: Temp=29.78, Humidity=79.07, Rice=32.0, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:42:14,027 INFO:Readings: Temp=26.04, Humidity=83.68, Rice=29.86, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:42:19,029 INFO:Readings: Temp=30.68, Humidity=75.03, Rice=28.03, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:42:24,030 INFO:Readings: Temp=30.56, Humidity=84.29, Rice=30.52, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:42:29,031 INFO:Readings: Temp=26.02, Humidity=78.09, Rice=31.87, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:42:34,031 INFO:Readings: Temp=29.92, Humidity=78.76, Rice=29.13, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:42:39,033 INFO:Readings: Temp=31.21, Humidity=83.89, Rice=28.29, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:42:44,035 INFO:Readings: Temp=26.23, Humidity=75.0, Rice=31.2, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:42:49,035 INFO:Readings: Temp=29.09, Humidity=84.12, Rice=31.47, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:42:54,037 INFO:Readings: Temp=31.69, Humidity=78.39, Rice=28.51, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:42:59,038 INFO:Readings: Temp=26.67, Humidity=78.46, Rice=28.81, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:43:04,039 INFO:Readings: Temp=28.26, Humidity=84.08, Rice=31.71, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:43:09,040 INFO:Readings: Temp=31.95, Humidity=75.0, Rice=30.86, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:43:14,041 INFO:Readings: Temp=27.28, Humidity=83.93, Rice=28.12, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:43:19,041 INFO:Readings: Temp=27.48, Humidity=78.7, Rice=29.5, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:43:24,045 INFO:Readings: Temp=31.98, Humidity=78.16, Rice=31.98, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:43:29,046 INFO:Readings: Temp=28.03, Humidity=84.25, Rice=30.12, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:43:34,047 INFO:Readings: Temp=26.82, Humidity=75.02, Rice=28.0, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:43:39,049 INFO:Readings: Temp=31.78, Humidity=83.73, Rice=30.27, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:43:44,050 INFO:Readings: Temp=28.86, Humidity=79.0, Rice=31.95, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:43:49,051 INFO:Readings: Temp=26.33, Humidity=77.87, Rice=29.36, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:43:54,052 INFO:Readings: Temp=31.36, Humidity=84.41, Rice=28.18, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:43:59,053 INFO:Fan activated for 60 seconds
+2025-04-17 15:43:59,053 INFO:Readings: Temp=29.7, Humidity=75.06, Rice=30.99, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:44:04,054 INFO:Readings: Temp=26.06, Humidity=83.51, Rice=31.63, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:44:09,055 INFO:Readings: Temp=30.75, Humidity=79.31, Rice=28.69, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:44:14,056 INFO:Readings: Temp=30.48, Humidity=77.59, Rice=28.62, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:44:19,057 INFO:Readings: Temp=26.01, Humidity=84.55, Rice=31.57, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:44:24,058 INFO:Readings: Temp=30.0, Humidity=75.11, Rice=31.08, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:44:29,059 INFO:Readings: Temp=31.15, Humidity=83.28, Rice=28.22, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:44:34,060 INFO:Readings: Temp=26.2, Humidity=79.63, Rice=29.26, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:44:39,061 INFO:Readings: Temp=29.18, Humidity=77.31, Rice=31.92, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:44:44,062 INFO:Readings: Temp=31.65, Humidity=84.68, Rice=30.37, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:44:49,063 INFO:Readings: Temp=26.62, Humidity=75.19, Rice=28.01, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:44:54,063 INFO:Readings: Temp=28.34, Humidity=83.03, Rice=30.01, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:44:59,064 INFO:Fan deactivated
+2025-04-17 15:44:59,065 INFO:Readings: Temp=31.94, Humidity=79.95, Rice=31.99, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:45:01,341 INFO:Received signal 2, shutting down
+2025-04-17 15:45:04,066 INFO:Cleaning up resources...
+2025-04-17 15:45:04,166 INFO:GPIO resources cleaned up
+2025-04-17 15:45:04,167 INFO:System shut down and resources cleaned up
+2025-04-17 15:45:07,111 INFO:Heater relay initialized on pin 27
+2025-04-17 15:45:07,111 INFO:Humidifier relay initialized on pin 22
+2025-04-17 15:45:07,112 INFO:Fan relay initialized on pin 17
+2025-04-17 15:45:07,112 INFO:Koji chamber control system initialized successfully
+2025-04-17 15:45:07,112 INFO:Koji chamber control system started
+2025-04-17 15:45:07,112 INFO:Fan activated for 60 seconds
+2025-04-17 15:45:07,113 INFO:Readings: Temp=30.0, Humidity=89.62, Rice=32.99, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:45:12,114 INFO:Readings: Temp=34.21, Humidity=86.98, Rice=31.79, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:45:17,115 INFO:Humidifier activated (humidity=78.21%)
+2025-04-17 15:45:17,116 INFO:Readings: Temp=34.54, Humidity=78.21, Rice=29.43, Fan=1, Heater=0, Humidifier=1
+2025-04-17 15:45:22,117 INFO:Readings: Temp=30.7, Humidity=75.31, Rice=27.43, Fan=1, Heater=0, Humidifier=1
+2025-04-17 15:45:27,118 INFO:Heater activated (temp=26.21°C)
+2025-04-17 15:45:27,119 INFO:Readings: Temp=26.21, Humidity=82.27, Rice=27.12, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:45:32,120 INFO:Humidifier deactivated (humidity=89.54%)
+2025-04-17 15:45:32,121 INFO:Readings: Temp=25.21, Humidity=89.54, Rice=28.7, Fan=1, Heater=1, Humidifier=0
+2025-04-17 15:45:37,122 INFO:Readings: Temp=28.61, Humidity=87.17, Rice=31.13, Fan=1, Heater=1, Humidifier=0
+2025-04-17 15:45:42,123 INFO:Heater deactivated (temp=33.29°C)
+2025-04-17 15:45:42,124 INFO:Humidifier activated (humidity=78.4%)
+2025-04-17 15:45:42,124 INFO:Readings: Temp=33.29, Humidity=78.4, Rice=32.82, Fan=1, Heater=0, Humidifier=1
+2025-04-17 15:45:47,125 INFO:Readings: Temp=34.94, Humidity=75.25, Rice=32.66, Fan=1, Heater=0, Humidifier=1
+2025-04-17 15:45:52,126 INFO:Readings: Temp=32.05, Humidity=82.03, Rice=30.76, Fan=1, Heater=0, Humidifier=1
+2025-04-17 15:45:57,129 INFO:Heater activated (temp=27.26°C)
+2025-04-17 15:45:57,129 INFO:Humidifier deactivated (humidity=89.46%)
+2025-04-17 15:45:57,130 INFO:Readings: Temp=27.26, Humidity=89.46, Rice=28.36, Fan=1, Heater=1, Humidifier=0
+2025-04-17 15:46:02,131 INFO:Readings: Temp=25.0, Humidity=87.35, Rice=27.04, Fan=1, Heater=1, Humidifier=0
+2025-04-17 15:46:07,132 INFO:Fan deactivated
+2025-04-17 15:46:07,132 INFO:Humidifier activated (humidity=78.6%)
+2025-04-17 15:46:07,133 INFO:Readings: Temp=27.34, Humidity=78.6, Rice=27.66, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:46:12,137 INFO:Heater deactivated (temp=32.13°C)
+2025-04-17 15:46:12,137 INFO:Readings: Temp=32.13, Humidity=75.19, Rice=29.81, Fan=0, Heater=0, Humidifier=1
+2025-04-17 15:46:17,138 INFO:Readings: Temp=34.96, Humidity=81.81, Rice=32.09, Fan=0, Heater=0, Humidifier=1
+2025-04-17 15:46:22,139 INFO:Humidifier deactivated (humidity=89.37%)
+2025-04-17 15:46:22,139 INFO:Readings: Temp=33.23, Humidity=89.37, Rice=33.0, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:46:27,140 INFO:Readings: Temp=28.53, Humidity=87.52, Rice=31.94, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:46:32,140 INFO:Heater activated (temp=25.18°C)
+2025-04-17 15:46:32,141 INFO:Humidifier activated (humidity=78.8%)
+2025-04-17 15:46:32,141 INFO:Readings: Temp=25.18, Humidity=78.8, Rice=29.61, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:46:37,142 INFO:Readings: Temp=26.27, Humidity=75.14, Rice=27.54, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:46:42,143 INFO:Readings: Temp=30.78, Humidity=81.57, Rice=27.08, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:46:47,143 INFO:Heater deactivated (temp=34.58°C)
+2025-04-17 15:46:47,144 INFO:Humidifier deactivated (humidity=89.27%)
+2025-04-17 15:46:47,147 INFO:Readings: Temp=34.58, Humidity=89.27, Rice=28.53, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:46:52,148 INFO:Readings: Temp=34.16, Humidity=87.69, Rice=30.95, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:46:57,149 INFO:Humidifier activated (humidity=79.0%)
+2025-04-17 15:46:57,149 INFO:Readings: Temp=29.92, Humidity=79.0, Rice=32.75, Fan=0, Heater=0, Humidifier=1
+2025-04-17 15:47:02,150 INFO:Heater activated (temp=25.75°C)
+2025-04-17 15:47:02,151 INFO:Readings: Temp=25.75, Humidity=75.1, Rice=32.74, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:47:07,151 INFO:Readings: Temp=25.49, Humidity=81.34, Rice=30.94, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:47:12,152 INFO:Humidifier deactivated (humidity=89.17%)
+2025-04-17 15:47:12,152 INFO:Readings: Temp=29.38, Humidity=89.17, Rice=28.52, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:47:17,153 INFO:Heater deactivated (temp=33.84°C)
+2025-04-17 15:47:17,153 INFO:Readings: Temp=33.84, Humidity=87.86, Rice=27.07, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:47:22,153 INFO:Humidifier activated (humidity=79.21%)
+2025-04-17 15:47:22,154 INFO:Readings: Temp=34.77, Humidity=79.21, Rice=27.54, Fan=0, Heater=0, Humidifier=1
+2025-04-17 15:47:27,155 INFO:Readings: Temp=31.31, Humidity=75.07, Rice=29.63, Fan=0, Heater=0, Humidifier=1
+2025-04-17 15:47:32,155 INFO:Heater activated (temp=26.65°C)
+2025-04-17 15:47:32,157 INFO:Readings: Temp=26.65, Humidity=81.1, Rice=31.95, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:47:37,158 INFO:Humidifier deactivated (humidity=89.05%)
+2025-04-17 15:47:37,158 INFO:Readings: Temp=25.07, Humidity=89.05, Rice=33.0, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:47:42,159 INFO:Readings: Temp=28.02, Humidity=88.03, Rice=32.08, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:47:47,160 INFO:Heater deactivated (temp=32.8°C)
+2025-04-17 15:47:47,160 INFO:Humidifier activated (humidity=79.43%)
+2025-04-17 15:47:47,163 INFO:Readings: Temp=32.8, Humidity=79.43, Rice=29.8, Fan=0, Heater=0, Humidifier=1
+2025-04-17 15:47:52,165 INFO:Readings: Temp=35.0, Humidity=75.04, Rice=27.65, Fan=0, Heater=0, Humidifier=1
+2025-04-17 15:47:57,167 INFO:Readings: Temp=32.6, Humidity=80.88, Rice=27.04, Fan=0, Heater=0, Humidifier=1
+2025-04-17 15:48:02,173 INFO:Heater activated (temp=27.8°C)
+2025-04-17 15:48:02,174 INFO:Humidifier deactivated (humidity=88.94%)
+2025-04-17 15:48:02,174 INFO:Readings: Temp=27.8, Humidity=88.94, Rice=28.38, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:48:07,175 INFO:Fan activated for 60 seconds
+2025-04-17 15:48:07,175 INFO:Readings: Temp=25.03, Humidity=88.17, Rice=30.78, Fan=1, Heater=1, Humidifier=0
+2025-04-17 15:48:12,176 INFO:Humidifier activated (humidity=79.63%)
+2025-04-17 15:48:12,176 INFO:Readings: Temp=26.83, Humidity=79.63, Rice=32.67, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:48:17,177 INFO:Readings: Temp=31.55, Humidity=75.02, Rice=32.81, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:48:22,178 INFO:Heater deactivated (temp=34.84°C)
+2025-04-17 15:48:22,178 INFO:Readings: Temp=34.84, Humidity=80.66, Rice=31.11, Fan=1, Heater=0, Humidifier=1
+2025-04-17 15:48:27,179 INFO:Humidifier deactivated (humidity=88.82%)
+2025-04-17 15:48:27,180 INFO:Readings: Temp=33.68, Humidity=88.82, Rice=28.68, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:48:32,181 INFO:Readings: Temp=29.14, Humidity=88.32, Rice=27.12, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:48:37,181 INFO:Heater activated (temp=25.39°C)
+2025-04-17 15:48:37,182 INFO:Humidifier activated (humidity=79.85%)
+2025-04-17 15:48:37,182 INFO:Readings: Temp=25.39, Humidity=79.85, Rice=27.44, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:48:42,183 INFO:Readings: Temp=25.88, Humidity=75.01, Rice=29.44, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:48:47,183 INFO:Readings: Temp=30.16, Humidity=80.43, Rice=31.81, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:48:52,184 INFO:Heater deactivated (temp=34.29°C)
+2025-04-17 15:48:52,185 INFO:Humidifier deactivated (humidity=88.69%)
+2025-04-17 15:48:52,186 INFO:Readings: Temp=34.29, Humidity=88.69, Rice=32.99, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:48:57,186 INFO:Readings: Temp=34.48, Humidity=88.47, Rice=32.21, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:49:02,187 INFO:Readings: Temp=30.54, Humidity=80.08, Rice=29.98, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:49:07,188 INFO:Fan deactivated
+2025-04-17 15:49:07,188 INFO:Heater activated (temp=26.11°C)
+2025-04-17 15:49:07,188 INFO:Humidifier activated (humidity=75.0%)
+2025-04-17 15:49:07,189 INFO:Readings: Temp=26.11, Humidity=75.0, Rice=27.77, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:49:12,192 INFO:Readings: Temp=25.26, Humidity=80.2, Rice=27.02, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:49:17,193 INFO:Humidifier deactivated (humidity=88.55%)
+2025-04-17 15:49:17,194 INFO:Readings: Temp=28.77, Humidity=88.55, Rice=28.22, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:49:22,195 INFO:Heater deactivated (temp=33.41°C)
+2025-04-17 15:49:22,195 INFO:Readings: Temp=33.41, Humidity=88.61, Rice=30.59, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:49:27,196 INFO:Readings: Temp=34.92, Humidity=80.3, Rice=32.58, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:49:32,197 INFO:Humidifier activated (humidity=75.0%)
+2025-04-17 15:49:32,197 INFO:Readings: Temp=31.9, Humidity=75.0, Rice=32.87, Fan=0, Heater=0, Humidifier=1
+2025-04-17 15:49:37,198 INFO:Heater activated (temp=27.13°C)
+2025-04-17 15:49:37,198 INFO:Readings: Temp=27.13, Humidity=79.98, Rice=31.28, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:49:42,199 INFO:Humidifier deactivated (humidity=88.41%)
+2025-04-17 15:49:42,199 INFO:Readings: Temp=25.0, Humidity=88.41, Rice=28.86, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:49:47,200 INFO:Readings: Temp=27.47, Humidity=88.75, Rice=27.18, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:49:52,201 INFO:Heater deactivated (temp=32.26°C)
+2025-04-17 15:49:52,202 INFO:Readings: Temp=32.26, Humidity=80.53, Rice=27.35, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:49:57,205 INFO:Humidifier activated (humidity=75.01%)
+2025-04-17 15:49:57,206 INFO:Readings: Temp=34.97, Humidity=75.01, Rice=29.26, Fan=0, Heater=0, Humidifier=1
+2025-04-17 15:50:02,207 INFO:Readings: Temp=33.11, Humidity=79.76, Rice=31.65, Fan=0, Heater=0, Humidifier=1
+2025-04-17 15:50:07,207 INFO:Humidifier deactivated (humidity=88.26%)
+2025-04-17 15:50:07,208 INFO:Readings: Temp=28.38, Humidity=88.26, Rice=32.96, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:50:12,209 INFO:Heater activated (temp=25.14°C)
+2025-04-17 15:50:12,209 INFO:Readings: Temp=25.14, Humidity=88.87, Rice=32.33, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:50:17,210 INFO:Readings: Temp=26.37, Humidity=80.75, Rice=30.17, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:50:22,211 INFO:Humidifier activated (humidity=75.03%)
+2025-04-17 15:50:22,212 INFO:Readings: Temp=30.94, Humidity=75.03, Rice=27.9, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:50:27,212 INFO:Heater deactivated (temp=34.64°C)
+2025-04-17 15:50:27,213 INFO:Readings: Temp=34.64, Humidity=79.54, Rice=27.0, Fan=0, Heater=0, Humidifier=1
+2025-04-17 15:50:32,214 INFO:Humidifier deactivated (humidity=88.11%)
+2025-04-17 15:50:32,214 INFO:Readings: Temp=34.07, Humidity=88.11, Rice=28.07, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:50:37,215 INFO:Readings: Temp=29.76, Humidity=88.99, Rice=30.41, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:50:42,215 INFO:Heater activated (temp=25.67°C)
+2025-04-17 15:50:42,216 INFO:Readings: Temp=25.67, Humidity=80.99, Rice=32.47, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:50:47,216 INFO:Humidifier activated (humidity=75.05%)
+2025-04-17 15:50:47,217 INFO:Readings: Temp=25.56, Humidity=75.05, Rice=32.92, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:50:52,218 INFO:Readings: Temp=29.53, Humidity=79.32, Rice=31.45, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:50:57,218 INFO:Heater deactivated (temp=33.94°C)
+2025-04-17 15:50:57,219 INFO:Humidifier deactivated (humidity=87.95%)
+2025-04-17 15:50:57,219 INFO:Readings: Temp=33.94, Humidity=87.95, Rice=29.03, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:51:02,220 INFO:Readings: Temp=34.72, Humidity=89.11, Rice=27.25, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:51:07,220 INFO:Fan activated for 60 seconds
+2025-04-17 15:51:07,222 INFO:Readings: Temp=31.16, Humidity=81.22, Rice=27.27, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:51:12,223 INFO:Heater activated (temp=26.53°C)
+2025-04-17 15:51:12,223 INFO:Humidifier activated (humidity=75.08%)
+2025-04-17 15:51:12,224 INFO:Readings: Temp=26.53, Humidity=75.08, Rice=29.08, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:51:17,227 INFO:Readings: Temp=25.1, Humidity=79.11, Rice=31.49, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:51:22,227 INFO:Humidifier deactivated (humidity=87.78%)
+2025-04-17 15:51:22,228 INFO:Readings: Temp=28.17, Humidity=87.78, Rice=32.93, Fan=1, Heater=1, Humidifier=0
+2025-04-17 15:51:27,228 INFO:Heater deactivated (temp=32.93°C)
+2025-04-17 15:51:27,229 INFO:Readings: Temp=32.93, Humidity=89.22, Rice=32.45, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:51:32,230 INFO:Readings: Temp=34.99, Humidity=81.45, Rice=30.36, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:51:37,231 INFO:Humidifier activated (humidity=75.12%)
+2025-04-17 15:51:37,231 INFO:Readings: Temp=32.47, Humidity=75.12, Rice=28.04, Fan=1, Heater=0, Humidifier=1
+2025-04-17 15:51:42,231 INFO:Heater activated (temp=27.67°C)
+2025-04-17 15:51:42,232 INFO:Readings: Temp=27.67, Humidity=78.9, Rice=27.0, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:51:47,233 INFO:Humidifier deactivated (humidity=87.61%)
+2025-04-17 15:51:47,234 INFO:Readings: Temp=25.02, Humidity=87.61, Rice=27.93, Fan=1, Heater=1, Humidifier=0
+2025-04-17 15:51:52,235 INFO:Readings: Temp=26.95, Humidity=89.32, Rice=30.22, Fan=1, Heater=1, Humidifier=0
+2025-04-17 15:51:57,235 INFO:Readings: Temp=31.68, Humidity=81.69, Rice=32.36, Fan=1, Heater=1, Humidifier=0
+2025-04-17 15:52:02,237 INFO:Heater deactivated (temp=34.87°C)
+2025-04-17 15:52:02,238 INFO:Humidifier activated (humidity=75.17%)
+2025-04-17 15:52:02,247 INFO:Readings: Temp=34.87, Humidity=75.17, Rice=32.96, Fan=1, Heater=0, Humidifier=1
+2025-04-17 15:52:07,251 INFO:Fan deactivated
+2025-04-17 15:52:07,255 INFO:Readings: Temp=33.57, Humidity=78.72, Rice=31.61, Fan=0, Heater=0, Humidifier=1
+2025-04-17 15:52:12,256 INFO:Humidifier deactivated (humidity=87.46%)
+2025-04-17 15:52:12,257 INFO:Readings: Temp=28.98, Humidity=87.46, Rice=29.21, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:52:17,257 INFO:Heater activated (temp=25.33°C)
+2025-04-17 15:52:17,258 INFO:Readings: Temp=25.33, Humidity=89.4, Rice=27.32, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:52:22,259 INFO:Readings: Temp=25.98, Humidity=81.89, Rice=27.2, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:52:27,259 INFO:Humidifier activated (humidity=75.21%)
+2025-04-17 15:52:27,260 INFO:Readings: Temp=30.33, Humidity=75.21, Rice=28.91, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:52:32,261 INFO:Heater deactivated (temp=34.38°C)
+2025-04-17 15:52:32,262 INFO:Readings: Temp=34.38, Humidity=78.52, Rice=31.33, Fan=0, Heater=0, Humidifier=1
+2025-04-17 15:52:37,262 INFO:Humidifier deactivated (humidity=87.28%)
+2025-04-17 15:52:37,263 INFO:Readings: Temp=34.4, Humidity=87.28, Rice=32.89, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:52:42,264 INFO:Readings: Temp=30.38, Humidity=89.49, Rice=32.55, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:52:47,271 INFO:Heater activated (temp=26.0°C)
+2025-04-17 15:52:47,275 INFO:Readings: Temp=26.0, Humidity=82.11, Rice=30.54, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:52:52,276 INFO:Humidifier activated (humidity=75.27%)
+2025-04-17 15:52:52,277 INFO:Readings: Temp=25.31, Humidity=75.27, Rice=28.17, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:52:57,284 INFO:Readings: Temp=28.94, Humidity=78.34, Rice=27.01, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:53:02,285 INFO:Heater deactivated (temp=33.54°C)
+2025-04-17 15:53:02,285 INFO:Humidifier deactivated (humidity=87.12%)
+2025-04-17 15:53:02,286 INFO:Readings: Temp=33.54, Humidity=87.12, Rice=27.81, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:53:07,286 INFO:Readings: Temp=34.88, Humidity=89.56, Rice=30.04, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:53:12,287 INFO:Readings: Temp=31.73, Humidity=82.33, Rice=32.25, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:53:17,288 INFO:Heater activated (temp=26.99°C)
+2025-04-17 15:53:17,288 INFO:Humidifier activated (humidity=75.33%)
+2025-04-17 15:53:17,288 INFO:Readings: Temp=26.99, Humidity=75.33, Rice=32.98, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:53:22,289 INFO:Readings: Temp=25.01, Humidity=78.15, Rice=31.76, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:53:27,290 INFO:Humidifier deactivated (humidity=86.93%)
+2025-04-17 15:53:27,291 INFO:Readings: Temp=27.63, Humidity=86.93, Rice=29.38, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:53:32,292 INFO:Heater deactivated (temp=32.42°C)
+2025-04-17 15:53:32,292 INFO:Readings: Temp=32.42, Humidity=89.64, Rice=27.41, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:53:37,293 INFO:Readings: Temp=34.99, Humidity=82.57, Rice=27.14, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:53:42,299 INFO:Humidifier activated (humidity=75.4%)
+2025-04-17 15:53:42,300 INFO:Readings: Temp=32.96, Humidity=75.4, Rice=28.74, Fan=0, Heater=0, Humidifier=1
+2025-04-17 15:53:47,301 INFO:Readings: Temp=28.21, Humidity=77.97, Rice=31.17, Fan=0, Heater=0, Humidifier=1
+2025-04-17 15:53:52,301 INFO:Heater activated (temp=25.1°C)
+2025-04-17 15:53:52,302 INFO:Humidifier deactivated (humidity=86.74%)
+2025-04-17 15:53:52,303 INFO:Readings: Temp=25.1, Humidity=86.74, Rice=32.83, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:53:57,314 INFO:Readings: Temp=26.5, Humidity=89.7, Rice=32.64, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:54:02,315 INFO:Readings: Temp=31.12, Humidity=82.78, Rice=30.71, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:54:07,315 INFO:Fan activated for 60 seconds
+2025-04-17 15:54:07,316 INFO:Heater deactivated (temp=34.71°C)
+2025-04-17 15:54:07,316 INFO:Humidifier activated (humidity=75.48%)
+2025-04-17 15:54:07,316 INFO:Readings: Temp=34.71, Humidity=75.48, Rice=28.32, Fan=1, Heater=0, Humidifier=1
+2025-04-17 15:54:12,317 INFO:Readings: Temp=33.96, Humidity=77.79, Rice=27.03, Fan=1, Heater=0, Humidifier=1
+2025-04-17 15:54:17,318 INFO:Humidifier deactivated (humidity=86.56%)
+2025-04-17 15:54:17,319 INFO:Readings: Temp=29.57, Humidity=86.56, Rice=27.69, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:54:22,319 INFO:Heater activated (temp=25.58°C)
+2025-04-17 15:54:22,320 INFO:Readings: Temp=25.58, Humidity=89.76, Rice=29.86, Fan=1, Heater=1, Humidifier=0
+2025-04-17 15:54:27,321 INFO:Readings: Temp=25.65, Humidity=83.02, Rice=32.13, Fan=1, Heater=1, Humidifier=0
+2025-04-17 15:54:32,321 INFO:Humidifier activated (humidity=75.56%)
+2025-04-17 15:54:32,322 INFO:Readings: Temp=29.73, Humidity=75.56, Rice=33.0, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:54:37,323 INFO:Heater deactivated (temp=34.05°C)
+2025-04-17 15:54:37,324 INFO:Readings: Temp=34.05, Humidity=77.61, Rice=31.9, Fan=1, Heater=0, Humidifier=1
+2025-04-17 15:54:42,324 INFO:Humidifier deactivated (humidity=86.36%)
+2025-04-17 15:54:42,325 INFO:Readings: Temp=34.65, Humidity=86.36, Rice=29.56, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:54:47,326 INFO:Readings: Temp=30.97, Humidity=89.82, Rice=27.51, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:54:52,327 INFO:Heater activated (temp=26.4°C)
+2025-04-17 15:54:52,331 INFO:Readings: Temp=26.4, Humidity=83.25, Rice=27.09, Fan=1, Heater=1, Humidifier=0
+2025-04-17 15:54:57,332 INFO:Humidifier activated (humidity=75.65%)
+2025-04-17 15:54:57,332 INFO:Readings: Temp=25.14, Humidity=75.65, Rice=28.58, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:55:02,333 INFO:Readings: Temp=28.35, Humidity=77.44, Rice=31.0, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:55:07,334 INFO:Fan deactivated
+2025-04-17 15:55:07,335 INFO:Heater deactivated (temp=33.08°C)
+2025-04-17 15:55:07,335 INFO:Humidifier deactivated (humidity=86.16%)
+2025-04-17 15:55:07,336 INFO:Readings: Temp=33.08, Humidity=86.16, Rice=32.77, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:55:12,339 INFO:Readings: Temp=34.98, Humidity=89.87, Rice=32.72, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:55:17,340 INFO:Readings: Temp=32.29, Humidity=83.48, Rice=30.89, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:55:22,344 INFO:Heater activated (temp=27.5°C)
+2025-04-17 15:55:22,344 INFO:Humidifier activated (humidity=75.75%)
+2025-04-17 15:55:22,347 INFO:Readings: Temp=27.5, Humidity=75.75, Rice=28.48, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:55:27,348 INFO:Readings: Temp=25.01, Humidity=77.28, Rice=27.06, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:55:32,349 INFO:Humidifier deactivated (humidity=85.96%)
+2025-04-17 15:55:32,350 INFO:Readings: Temp=27.11, Humidity=85.96, Rice=27.58, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:55:37,351 INFO:Readings: Temp=31.87, Humidity=89.9, Rice=29.68, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:55:42,351 INFO:Heater deactivated (temp=34.91°C)
+2025-04-17 15:55:42,352 INFO:Readings: Temp=34.91, Humidity=83.7, Rice=31.99, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:55:47,355 INFO:Humidifier activated (humidity=75.85%)
+2025-04-17 15:55:47,357 INFO:Readings: Temp=33.43, Humidity=75.85, Rice=33.0, Fan=0, Heater=0, Humidifier=1
+2025-04-17 15:55:52,358 INFO:Readings: Temp=28.79, Humidity=77.12, Rice=32.04, Fan=0, Heater=0, Humidifier=1
+2025-04-17 15:55:57,359 INFO:Heater activated (temp=25.26°C)
+2025-04-17 15:55:57,359 INFO:Humidifier deactivated (humidity=85.76%)
+2025-04-17 15:55:57,360 INFO:Readings: Temp=25.26, Humidity=85.76, Rice=29.74, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:56:02,360 INFO:Readings: Temp=26.09, Humidity=89.94, Rice=27.61, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:56:07,361 INFO:Readings: Temp=30.52, Humidity=83.93, Rice=27.05, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:56:12,365 INFO:Heater deactivated (temp=34.47°C)
+2025-04-17 15:56:12,366 INFO:Humidifier activated (humidity=75.96%)
+2025-04-17 15:56:12,368 INFO:Readings: Temp=34.47, Humidity=75.96, Rice=28.42, Fan=0, Heater=0, Humidifier=1
+2025-04-17 15:56:17,369 INFO:Readings: Temp=34.3, Humidity=76.96, Rice=30.83, Fan=0, Heater=0, Humidifier=1
+2025-04-17 15:56:22,370 INFO:Humidifier deactivated (humidity=85.55%)
+2025-04-17 15:56:22,371 INFO:Readings: Temp=30.18, Humidity=85.55, Rice=32.69, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:56:27,371 INFO:Heater activated (temp=25.89°C)
+2025-04-17 15:56:27,372 INFO:Readings: Temp=25.89, Humidity=89.96, Rice=32.79, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:56:32,373 INFO:Readings: Temp=25.38, Humidity=84.15, Rice=31.06, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:56:37,374 INFO:Humidifier activated (humidity=76.08%)
+2025-04-17 15:56:37,374 INFO:Readings: Temp=29.12, Humidity=76.08, Rice=28.64, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:56:42,375 INFO:Heater deactivated (temp=33.67°C)
+2025-04-17 15:56:42,376 INFO:Readings: Temp=33.67, Humidity=76.8, Rice=27.11, Fan=0, Heater=0, Humidifier=1
+2025-04-17 15:56:47,376 INFO:Humidifier deactivated (humidity=85.33%)
+2025-04-17 15:56:47,377 INFO:Readings: Temp=34.84, Humidity=85.33, Rice=27.47, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:56:52,378 INFO:Readings: Temp=31.56, Humidity=89.98, Rice=29.49, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:56:57,379 INFO:Heater activated (temp=26.85°C)
+2025-04-17 15:56:57,380 INFO:Readings: Temp=26.85, Humidity=84.38, Rice=31.85, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:57:02,380 INFO:Humidifier activated (humidity=76.2%)
+2025-04-17 15:57:02,381 INFO:Readings: Temp=25.03, Humidity=76.2, Rice=32.99, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:57:07,382 INFO:Fan activated for 60 seconds
+2025-04-17 15:57:07,382 INFO:Readings: Temp=27.79, Humidity=76.65, Rice=32.17, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:57:12,383 INFO:Heater deactivated (temp=32.58°C)
+2025-04-17 15:57:12,384 INFO:Humidifier deactivated (humidity=85.11%)
+2025-04-17 15:57:12,384 INFO:Readings: Temp=32.58, Humidity=85.11, Rice=29.93, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:57:17,386 INFO:Readings: Temp=35.0, Humidity=90.0, Rice=27.73, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:57:22,387 INFO:Readings: Temp=32.82, Humidity=84.61, Rice=27.02, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:57:27,388 INFO:Humidifier activated (humidity=76.33%)
+2025-04-17 15:57:27,388 INFO:Readings: Temp=28.05, Humidity=76.33, Rice=28.26, Fan=1, Heater=0, Humidifier=1
+2025-04-17 15:57:32,389 INFO:Heater activated (temp=25.07°C)
+2025-04-17 15:57:32,389 INFO:Readings: Temp=25.07, Humidity=76.51, Rice=30.64, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:57:37,390 INFO:Readings: Temp=26.63, Humidity=84.89, Rice=32.6, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:57:42,390 INFO:Humidifier deactivated (humidity=90.0%)
+2025-04-17 15:57:42,391 INFO:Readings: Temp=31.28, Humidity=90.0, Rice=32.85, Fan=1, Heater=1, Humidifier=0
+2025-04-17 15:57:47,393 INFO:Heater deactivated (temp=34.76°C)
+2025-04-17 15:57:47,394 INFO:Readings: Temp=34.76, Humidity=84.83, Rice=31.24, Fan=1, Heater=0, Humidifier=0
+2025-04-17 15:57:52,395 INFO:Humidifier activated (humidity=76.47%)
+2025-04-17 15:57:52,395 INFO:Readings: Temp=33.86, Humidity=76.47, Rice=28.81, Fan=1, Heater=0, Humidifier=1
+2025-04-17 15:57:57,397 INFO:Readings: Temp=29.41, Humidity=76.37, Rice=27.16, Fan=1, Heater=0, Humidifier=1
+2025-04-17 15:58:02,397 INFO:Heater activated (temp=25.5°C)
+2025-04-17 15:58:02,398 INFO:Readings: Temp=25.5, Humidity=84.67, Rice=27.37, Fan=1, Heater=1, Humidifier=1
+2025-04-17 15:58:07,398 INFO:Fan deactivated
+2025-04-17 15:58:07,399 INFO:Humidifier deactivated (humidity=90.0%)
+2025-04-17 15:58:07,399 INFO:Readings: Temp=25.73, Humidity=90.0, Rice=29.31, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:58:12,400 INFO:Readings: Temp=29.89, Humidity=85.06, Rice=31.7, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:58:17,401 INFO:Heater deactivated (temp=34.15°C)
+2025-04-17 15:58:17,401 INFO:Humidifier activated (humidity=76.61%)
+2025-04-17 15:58:17,404 INFO:Readings: Temp=34.15, Humidity=76.61, Rice=32.97, Fan=0, Heater=0, Humidifier=1
+2025-04-17 15:58:22,405 INFO:Readings: Temp=34.59, Humidity=76.24, Rice=32.3, Fan=0, Heater=0, Humidifier=1
+2025-04-17 15:58:27,409 INFO:Readings: Temp=30.8, Humidity=84.45, Rice=30.12, Fan=0, Heater=0, Humidifier=1
+2025-04-17 15:58:32,416 INFO:Heater activated (temp=26.28°C)
+2025-04-17 15:58:32,416 INFO:Humidifier deactivated (humidity=89.99%)
+2025-04-17 15:58:32,424 INFO:Readings: Temp=26.28, Humidity=89.99, Rice=27.86, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:58:37,425 INFO:Readings: Temp=25.18, Humidity=85.25, Rice=27.01, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:58:42,426 INFO:Humidifier activated (humidity=76.74%)
+2025-04-17 15:58:42,426 INFO:Readings: Temp=28.52, Humidity=76.74, Rice=28.12, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:58:47,428 INFO:Heater deactivated (temp=33.22°C)
+2025-04-17 15:58:47,429 INFO:Readings: Temp=33.22, Humidity=76.13, Rice=30.47, Fan=0, Heater=0, Humidifier=1
+2025-04-17 15:58:52,431 INFO:Readings: Temp=34.96, Humidity=84.25, Rice=32.51, Fan=0, Heater=0, Humidifier=1
+2025-04-17 15:58:57,433 INFO:Humidifier deactivated (humidity=89.97%)
+2025-04-17 15:58:57,436 INFO:Readings: Temp=32.13, Humidity=89.97, Rice=32.9, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:59:02,439 INFO:Heater activated (temp=27.34°C)
+2025-04-17 15:59:02,440 INFO:Readings: Temp=27.34, Humidity=85.45, Rice=31.39, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:59:07,441 INFO:Humidifier activated (humidity=76.88%)
+2025-04-17 15:59:07,441 INFO:Readings: Temp=25.0, Humidity=76.88, Rice=28.97, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:59:12,443 INFO:Readings: Temp=27.26, Humidity=76.01, Rice=27.22, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:59:17,444 INFO:Heater deactivated (temp=32.04°C)
+2025-04-17 15:59:17,445 INFO:Readings: Temp=32.04, Humidity=84.03, Rice=27.29, Fan=0, Heater=0, Humidifier=1
+2025-04-17 15:59:22,445 INFO:Humidifier deactivated (humidity=89.95%)
+2025-04-17 15:59:22,446 INFO:Readings: Temp=34.94, Humidity=89.95, Rice=29.14, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:59:27,447 INFO:Readings: Temp=33.3, Humidity=85.66, Rice=31.55, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:59:32,448 INFO:Humidifier activated (humidity=77.04%)
+2025-04-17 15:59:32,449 INFO:Readings: Temp=28.62, Humidity=77.04, Rice=32.94, Fan=0, Heater=0, Humidifier=1
+2025-04-17 15:59:37,450 INFO:Heater activated (temp=25.21°C)
+2025-04-17 15:59:37,456 INFO:Readings: Temp=25.21, Humidity=75.9, Rice=32.41, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:59:42,461 INFO:Readings: Temp=26.21, Humidity=83.82, Rice=30.29, Fan=0, Heater=1, Humidifier=1
+2025-04-17 15:59:47,463 INFO:Humidifier deactivated (humidity=89.92%)
+2025-04-17 15:59:47,469 INFO:Readings: Temp=30.7, Humidity=89.92, Rice=27.98, Fan=0, Heater=1, Humidifier=0
+2025-04-17 15:59:52,470 INFO:Heater deactivated (temp=34.55°C)
+2025-04-17 15:59:52,474 INFO:Readings: Temp=34.55, Humidity=85.85, Rice=27.0, Fan=0, Heater=0, Humidifier=0
+2025-04-17 15:59:57,474 INFO:Humidifier activated (humidity=77.18%)
+2025-04-17 15:59:57,475 INFO:Readings: Temp=34.2, Humidity=77.18, Rice=27.99, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:00:02,476 INFO:Readings: Temp=29.99, Humidity=75.81, Rice=30.29, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:00:07,476 INFO:Fan activated for 60 seconds
+2025-04-17 16:00:07,477 INFO:Heater activated (temp=25.79°C)
+2025-04-17 16:00:07,477 INFO:Readings: Temp=25.79, Humidity=83.6, Rice=32.41, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:00:12,477 INFO:Humidifier deactivated (humidity=89.89%)
+2025-04-17 16:00:12,484 INFO:Readings: Temp=25.46, Humidity=89.89, Rice=32.94, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:00:17,485 INFO:Readings: Temp=29.32, Humidity=86.05, Rice=31.55, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:00:22,488 INFO:Heater deactivated (temp=33.8°C)
+2025-04-17 16:00:22,489 INFO:Humidifier activated (humidity=77.34%)
+2025-04-17 16:00:22,489 INFO:Readings: Temp=33.8, Humidity=77.34, Rice=29.14, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:00:27,490 INFO:Readings: Temp=34.79, Humidity=75.71, Rice=27.29, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:00:32,491 INFO:Readings: Temp=31.37, Humidity=83.38, Rice=27.22, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:00:37,492 INFO:Heater activated (temp=26.69°C)
+2025-04-17 16:00:37,492 INFO:Humidifier deactivated (humidity=89.85%)
+2025-04-17 16:00:37,495 INFO:Readings: Temp=26.69, Humidity=89.85, Rice=28.97, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:00:42,496 INFO:Readings: Temp=25.06, Humidity=86.25, Rice=31.4, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:00:47,501 INFO:Humidifier activated (humidity=77.51%)
+2025-04-17 16:00:47,505 INFO:Readings: Temp=27.97, Humidity=77.51, Rice=32.91, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:00:52,505 INFO:Heater deactivated (temp=32.75°C)
+2025-04-17 16:00:52,506 INFO:Readings: Temp=32.75, Humidity=75.62, Rice=32.51, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:00:57,507 INFO:Readings: Temp=35.0, Humidity=83.16, Rice=30.46, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:01:02,507 INFO:Humidifier deactivated (humidity=89.8%)
+2025-04-17 16:01:02,508 INFO:Readings: Temp=32.65, Humidity=89.8, Rice=28.12, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:01:07,508 INFO:Fan deactivated
+2025-04-17 16:01:07,509 INFO:Heater activated (temp=27.86°C)
+2025-04-17 16:01:07,509 INFO:Readings: Temp=27.86, Humidity=86.44, Rice=27.01, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:01:12,510 INFO:Humidifier activated (humidity=77.68%)
+2025-04-17 16:01:12,511 INFO:Readings: Temp=25.04, Humidity=77.68, Rice=27.86, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:01:17,511 INFO:Readings: Temp=26.78, Humidity=75.53, Rice=30.11, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:01:22,512 INFO:Readings: Temp=31.49, Humidity=82.92, Rice=32.29, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:01:27,513 INFO:Heater deactivated (temp=34.82°C)
+2025-04-17 16:01:27,514 INFO:Humidifier deactivated (humidity=89.74%)
+2025-04-17 16:01:27,515 INFO:Readings: Temp=34.82, Humidity=89.74, Rice=32.97, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:01:32,515 INFO:Readings: Temp=33.72, Humidity=86.64, Rice=31.7, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:01:37,516 INFO:Humidifier activated (humidity=77.87%)
+2025-04-17 16:01:37,516 INFO:Readings: Temp=29.2, Humidity=77.87, Rice=29.32, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:01:42,517 INFO:Heater activated (temp=25.41°C)
+2025-04-17 16:01:42,517 INFO:Readings: Temp=25.41, Humidity=75.44, Rice=27.38, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:01:47,518 INFO:Readings: Temp=25.85, Humidity=82.68, Rice=27.16, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:01:52,519 INFO:Humidifier deactivated (humidity=89.67%)
+2025-04-17 16:01:52,519 INFO:Readings: Temp=30.1, Humidity=89.67, Rice=28.8, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:01:57,520 INFO:Heater deactivated (temp=34.26°C)
+2025-04-17 16:01:57,520 INFO:Readings: Temp=34.26, Humidity=86.84, Rice=31.23, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:02:02,521 INFO:Humidifier activated (humidity=78.06%)
+2025-04-17 16:02:02,522 INFO:Readings: Temp=34.5, Humidity=78.06, Rice=32.85, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:02:07,523 INFO:Readings: Temp=30.6, Humidity=75.37, Rice=32.61, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:02:12,524 INFO:Heater activated (temp=26.15°C)
+2025-04-17 16:02:12,524 INFO:Readings: Temp=26.15, Humidity=82.45, Rice=30.65, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:02:17,525 INFO:Humidifier deactivated (humidity=89.6%)
+2025-04-17 16:02:17,526 INFO:Readings: Temp=25.24, Humidity=89.6, Rice=28.27, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:02:22,527 INFO:Readings: Temp=28.71, Humidity=87.03, Rice=27.02, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:02:27,531 INFO:Heater deactivated (temp=33.37°C)
+2025-04-17 16:02:27,531 INFO:Humidifier activated (humidity=78.25%)
+2025-04-17 16:02:27,538 INFO:Readings: Temp=33.37, Humidity=78.25, Rice=27.73, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:02:32,539 INFO:Readings: Temp=34.93, Humidity=75.3, Rice=29.93, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:02:37,540 INFO:Readings: Temp=31.95, Humidity=82.23, Rice=32.17, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:02:42,545 INFO:Heater activated (temp=27.18°C)
+2025-04-17 16:02:42,545 INFO:Humidifier deactivated (humidity=89.53%)
+2025-04-17 16:02:42,546 INFO:Readings: Temp=27.18, Humidity=89.53, Rice=32.99, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:02:47,547 INFO:Readings: Temp=25.0, Humidity=87.19, Rice=31.85, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:02:52,548 INFO:Humidifier activated (humidity=78.43%)
+2025-04-17 16:02:52,549 INFO:Readings: Temp=27.43, Humidity=78.43, Rice=29.5, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:02:57,550 INFO:Heater deactivated (temp=32.22°C)
+2025-04-17 16:02:57,552 INFO:Readings: Temp=32.22, Humidity=75.24, Rice=27.47, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:03:02,553 INFO:Readings: Temp=34.97, Humidity=82.0, Rice=27.11, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:03:07,555 INFO:Fan activated for 60 seconds
+2025-04-17 16:03:07,559 INFO:Humidifier deactivated (humidity=89.45%)
+2025-04-17 16:03:07,559 INFO:Readings: Temp=33.15, Humidity=89.45, Rice=28.64, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:03:12,560 INFO:Readings: Temp=28.43, Humidity=87.37, Rice=31.06, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:03:17,561 INFO:Heater activated (temp=25.16°C)
+2025-04-17 16:03:17,561 INFO:Humidifier activated (humidity=78.62%)
+2025-04-17 16:03:17,562 INFO:Readings: Temp=25.16, Humidity=78.62, Rice=32.79, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:03:22,562 INFO:Readings: Temp=26.34, Humidity=75.19, Rice=32.69, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:03:27,563 INFO:Readings: Temp=30.89, Humidity=81.77, Rice=30.82, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:03:32,564 INFO:Heater deactivated (temp=34.62°C)
+2025-04-17 16:03:32,564 INFO:Humidifier deactivated (humidity=89.36%)
+2025-04-17 16:03:32,565 INFO:Readings: Temp=34.62, Humidity=89.36, Rice=28.42, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:03:37,566 INFO:Readings: Temp=34.1, Humidity=87.55, Rice=27.05, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:03:42,570 INFO:Humidifier activated (humidity=78.82%)
+2025-04-17 16:03:42,571 INFO:Readings: Temp=29.81, Humidity=78.82, Rice=27.62, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:03:47,573 INFO:Heater activated (temp=25.69°C)
+2025-04-17 16:03:47,573 INFO:Readings: Temp=25.69, Humidity=75.14, Rice=29.75, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:03:52,574 INFO:Readings: Temp=25.54, Humidity=81.55, Rice=32.04, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:03:57,575 INFO:Humidifier deactivated (humidity=89.26%)
+2025-04-17 16:03:57,579 INFO:Readings: Temp=29.49, Humidity=89.26, Rice=33.0, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:04:02,579 INFO:Heater deactivated (temp=33.91°C)
+2025-04-17 16:04:02,580 INFO:Readings: Temp=33.91, Humidity=87.71, Rice=31.99, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:04:07,581 INFO:Fan deactivated
+2025-04-17 16:04:07,582 INFO:Humidifier activated (humidity=79.02%)
+2025-04-17 16:04:07,586 INFO:Readings: Temp=34.73, Humidity=79.02, Rice=29.68, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:04:12,587 INFO:Readings: Temp=31.19, Humidity=75.1, Rice=27.57, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:04:17,587 INFO:Heater activated (temp=26.56°C)
+2025-04-17 16:04:17,590 INFO:Readings: Temp=26.56, Humidity=81.33, Rice=27.06, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:04:22,591 INFO:Humidifier deactivated (humidity=89.16%)
+2025-04-17 16:04:22,598 INFO:Readings: Temp=25.09, Humidity=89.16, Rice=28.48, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:04:27,599 INFO:Readings: Temp=28.14, Humidity=87.86, Rice=30.89, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:04:32,599 INFO:Heater deactivated (temp=32.91°C)
+2025-04-17 16:04:32,599 INFO:Humidifier activated (humidity=79.21%)
+2025-04-17 16:04:32,600 INFO:Readings: Temp=32.91, Humidity=79.21, Rice=32.72, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:04:37,601 INFO:Readings: Temp=34.99, Humidity=75.07, Rice=32.76, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:04:42,602 INFO:Readings: Temp=32.49, Humidity=81.11, Rice=31.0, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:04:47,603 INFO:Heater activated (temp=27.69°C)
+2025-04-17 16:04:47,603 INFO:Humidifier deactivated (humidity=89.06%)
+2025-04-17 16:04:47,603 INFO:Readings: Temp=27.69, Humidity=89.06, Rice=28.57, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:04:52,604 INFO:Readings: Temp=25.02, Humidity=88.02, Rice=27.09, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:04:57,605 INFO:Humidifier activated (humidity=79.43%)
+2025-04-17 16:04:57,606 INFO:Readings: Temp=26.93, Humidity=79.43, Rice=27.51, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:05:02,607 INFO:Readings: Temp=31.66, Humidity=75.04, Rice=29.56, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:05:07,607 INFO:Heater deactivated (temp=34.87°C)
+2025-04-17 16:05:07,614 INFO:Readings: Temp=34.87, Humidity=80.87, Rice=31.9, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:05:12,615 INFO:Humidifier deactivated (humidity=88.94%)
+2025-04-17 16:05:12,619 INFO:Readings: Temp=33.59, Humidity=88.94, Rice=33.0, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:05:17,620 INFO:Readings: Temp=29.01, Humidity=88.17, Rice=32.12, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:05:22,624 INFO:Heater activated (temp=25.34°C)
+2025-04-17 16:05:22,624 INFO:Humidifier activated (humidity=79.62%)
+2025-04-17 16:05:22,625 INFO:Readings: Temp=25.34, Humidity=79.62, Rice=29.85, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:05:27,626 INFO:Readings: Temp=25.96, Humidity=75.02, Rice=27.68, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:05:32,627 INFO:Readings: Temp=30.3, Humidity=80.67, Rice=27.03, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:05:37,630 INFO:Heater deactivated (temp=34.36°C)
+2025-04-17 16:05:37,630 INFO:Humidifier deactivated (humidity=88.83%)
+2025-04-17 16:05:37,630 INFO:Readings: Temp=34.36, Humidity=88.83, Rice=28.33, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:05:42,631 INFO:Readings: Temp=34.41, Humidity=88.32, Rice=30.72, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:05:47,634 INFO:Humidifier activated (humidity=79.83%)
+2025-04-17 16:05:47,641 INFO:Readings: Temp=30.4, Humidity=79.83, Rice=32.64, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:05:52,641 INFO:Heater activated (temp=26.02°C)
+2025-04-17 16:05:52,642 INFO:Readings: Temp=26.02, Humidity=75.01, Rice=32.83, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:05:57,644 INFO:Readings: Temp=25.3, Humidity=80.46, Rice=31.16, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:06:02,644 INFO:Humidifier deactivated (humidity=88.71%)
+2025-04-17 16:06:02,645 INFO:Readings: Temp=28.91, Humidity=88.71, Rice=28.73, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:06:07,646 INFO:Fan activated for 60 seconds
+2025-04-17 16:06:07,649 INFO:Heater deactivated (temp=33.52°C)
+2025-04-17 16:06:07,649 INFO:Readings: Temp=33.52, Humidity=88.45, Rice=27.14, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:06:12,651 INFO:Readings: Temp=34.89, Humidity=80.04, Rice=27.42, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:06:17,658 INFO:Humidifier activated (humidity=75.0%)
+2025-04-17 16:06:17,659 INFO:Readings: Temp=31.76, Humidity=75.0, Rice=29.39, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:06:22,660 INFO:Heater activated (temp=27.01°C)
+2025-04-17 16:06:22,663 INFO:Readings: Temp=27.01, Humidity=80.25, Rice=31.77, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:06:27,664 INFO:Humidifier deactivated (humidity=88.58%)
+2025-04-17 16:06:27,665 INFO:Readings: Temp=25.01, Humidity=88.58, Rice=32.98, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:06:32,665 INFO:Readings: Temp=27.6, Humidity=88.58, Rice=32.24, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:06:37,666 INFO:Heater deactivated (temp=32.4°C)
+2025-04-17 16:06:37,672 INFO:Readings: Temp=32.4, Humidity=80.25, Rice=30.03, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:06:42,676 INFO:Humidifier activated (humidity=75.0%)
+2025-04-17 16:06:42,677 INFO:Readings: Temp=34.99, Humidity=75.0, Rice=27.8, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:06:47,677 INFO:Readings: Temp=32.98, Humidity=80.04, Rice=27.01, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:06:52,678 INFO:Humidifier deactivated (humidity=88.45%)
+2025-04-17 16:06:52,679 INFO:Readings: Temp=28.23, Humidity=88.45, Rice=28.18, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:06:57,680 INFO:Heater activated (temp=25.11°C)
+2025-04-17 16:06:57,680 INFO:Readings: Temp=25.11, Humidity=88.71, Rice=30.55, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:07:02,681 INFO:Readings: Temp=26.49, Humidity=80.46, Rice=32.55, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:07:07,685 INFO:Fan deactivated
+2025-04-17 16:07:07,685 INFO:Humidifier activated (humidity=75.01%)
+2025-04-17 16:07:07,686 INFO:Readings: Temp=31.1, Humidity=75.01, Rice=32.88, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:07:12,686 INFO:Heater deactivated (temp=34.7°C)
+2025-04-17 16:07:12,687 INFO:Readings: Temp=34.7, Humidity=79.83, Rice=31.32, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:07:17,688 INFO:Humidifier deactivated (humidity=88.31%)
+2025-04-17 16:07:17,688 INFO:Readings: Temp=33.98, Humidity=88.31, Rice=28.9, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:07:22,689 INFO:Readings: Temp=29.6, Humidity=88.83, Rice=27.19, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:07:27,690 INFO:Heater activated (temp=25.59°C)
+2025-04-17 16:07:27,690 INFO:Readings: Temp=25.59, Humidity=80.68, Rice=27.33, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:07:32,691 INFO:Humidifier activated (humidity=75.02%)
+2025-04-17 16:07:32,691 INFO:Readings: Temp=25.64, Humidity=75.02, Rice=29.22, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:07:37,692 INFO:Readings: Temp=29.7, Humidity=79.6, Rice=31.62, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:07:42,692 INFO:Heater deactivated (temp=34.04°C)
+2025-04-17 16:07:42,693 INFO:Humidifier deactivated (humidity=88.15%)
+2025-04-17 16:07:42,694 INFO:Readings: Temp=34.04, Humidity=88.15, Rice=32.96, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:07:47,694 INFO:Readings: Temp=34.66, Humidity=88.96, Rice=32.36, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:07:52,696 INFO:Readings: Temp=31.0, Humidity=80.92, Rice=30.22, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:07:57,699 INFO:Heater activated (temp=26.42°C)
+2025-04-17 16:07:57,699 INFO:Humidifier activated (humidity=75.04%)
+2025-04-17 16:07:57,700 INFO:Readings: Temp=26.42, Humidity=75.04, Rice=27.93, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:08:02,700 INFO:Readings: Temp=25.13, Humidity=79.39, Rice=27.0, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:08:07,701 INFO:Humidifier deactivated (humidity=88.0%)
+2025-04-17 16:08:07,701 INFO:Readings: Temp=28.32, Humidity=88.0, Rice=28.04, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:08:12,702 INFO:Heater deactivated (temp=33.06°C)
+2025-04-17 16:08:12,702 INFO:Readings: Temp=33.06, Humidity=89.07, Rice=30.36, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:08:17,705 INFO:Readings: Temp=34.98, Humidity=81.14, Rice=32.45, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:08:22,706 INFO:Humidifier activated (humidity=75.07%)
+2025-04-17 16:08:22,708 INFO:Readings: Temp=32.32, Humidity=75.07, Rice=32.93, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:08:27,709 INFO:Heater activated (temp=27.52°C)
+2025-04-17 16:08:27,709 INFO:Readings: Temp=27.52, Humidity=79.18, Rice=31.49, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:08:32,710 INFO:Humidifier deactivated (humidity=87.84%)
+2025-04-17 16:08:32,711 INFO:Readings: Temp=25.01, Humidity=87.84, Rice=29.07, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:08:37,714 INFO:Readings: Temp=27.08, Humidity=89.18, Rice=27.26, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:08:42,720 INFO:Readings: Temp=31.84, Humidity=81.37, Rice=27.25, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:08:47,720 INFO:Heater deactivated (temp=34.91°C)
+2025-04-17 16:08:47,721 INFO:Humidifier activated (humidity=75.11%)
+2025-04-17 16:08:47,725 INFO:Readings: Temp=34.91, Humidity=75.11, Rice=29.04, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:08:52,727 INFO:Readings: Temp=33.45, Humidity=78.99, Rice=31.46, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:08:57,729 INFO:Humidifier deactivated (humidity=87.68%)
+2025-04-17 16:08:57,731 INFO:Readings: Temp=28.82, Humidity=87.68, Rice=32.92, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:09:02,732 INFO:Heater activated (temp=25.27°C)
+2025-04-17 16:09:02,733 INFO:Readings: Temp=25.27, Humidity=89.28, Rice=32.47, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:09:07,733 INFO:Fan activated for 60 seconds
+2025-04-17 16:09:07,734 INFO:Readings: Temp=26.08, Humidity=81.58, Rice=30.4, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:09:12,735 INFO:Humidifier activated (humidity=75.15%)
+2025-04-17 16:09:12,736 INFO:Readings: Temp=30.49, Humidity=75.15, Rice=28.06, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:09:17,736 INFO:Heater deactivated (temp=34.45°C)
+2025-04-17 16:09:17,737 INFO:Readings: Temp=34.45, Humidity=78.79, Rice=27.0, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:09:22,737 INFO:Humidifier deactivated (humidity=87.51%)
+2025-04-17 16:09:22,741 INFO:Readings: Temp=34.32, Humidity=87.51, Rice=27.91, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:09:27,742 INFO:Readings: Temp=30.21, Humidity=89.37, Rice=30.18, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:09:32,745 INFO:Heater activated (temp=25.91°C)
+2025-04-17 16:09:32,751 INFO:Readings: Temp=25.91, Humidity=81.81, Rice=32.34, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:09:37,752 INFO:Humidifier activated (humidity=75.19%)
+2025-04-17 16:09:37,759 INFO:Readings: Temp=25.37, Humidity=75.19, Rice=32.96, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:09:42,760 INFO:Readings: Temp=29.11, Humidity=78.61, Rice=31.64, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:09:47,761 INFO:Heater deactivated (temp=33.66°C)
+2025-04-17 16:09:47,761 INFO:Humidifier deactivated (humidity=87.36%)
+2025-04-17 16:09:47,762 INFO:Readings: Temp=33.66, Humidity=87.36, Rice=29.24, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:09:52,762 INFO:Readings: Temp=34.84, Humidity=89.45, Rice=27.34, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:09:57,763 INFO:Readings: Temp=31.58, Humidity=82.02, Rice=27.18, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:10:02,764 INFO:Heater activated (temp=26.86°C)
+2025-04-17 16:10:02,765 INFO:Humidifier activated (humidity=75.25%)
+2025-04-17 16:10:02,766 INFO:Readings: Temp=26.86, Humidity=75.25, Rice=28.87, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:10:07,766 INFO:Fan deactivated
+2025-04-17 16:10:07,769 INFO:Readings: Temp=25.03, Humidity=78.41, Rice=31.3, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:10:12,771 INFO:Humidifier deactivated (humidity=87.18%)
+2025-04-17 16:10:12,772 INFO:Readings: Temp=27.78, Humidity=87.18, Rice=32.88, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:10:17,773 INFO:Heater deactivated (temp=32.57°C)
+2025-04-17 16:10:17,773 INFO:Readings: Temp=32.57, Humidity=89.54, Rice=32.56, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:10:22,774 INFO:Readings: Temp=35.0, Humidity=82.25, Rice=30.57, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:10:27,774 INFO:Humidifier activated (humidity=75.31%)
+2025-04-17 16:10:27,776 INFO:Readings: Temp=32.83, Humidity=75.31, Rice=28.2, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:10:32,776 INFO:Readings: Temp=28.06, Humidity=78.22, Rice=27.01, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:10:37,777 INFO:Heater activated (temp=25.07°C)
+2025-04-17 16:10:37,778 INFO:Humidifier deactivated (humidity=86.99%)
+2025-04-17 16:10:37,778 INFO:Readings: Temp=25.07, Humidity=86.99, Rice=27.78, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:10:42,779 INFO:Readings: Temp=26.62, Humidity=89.61, Rice=30.0, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:10:47,782 INFO:Readings: Temp=31.28, Humidity=82.49, Rice=32.22, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:10:52,783 INFO:Heater deactivated (temp=34.76°C)
+2025-04-17 16:10:52,783 INFO:Humidifier activated (humidity=75.38%)
+2025-04-17 16:10:52,783 INFO:Readings: Temp=34.76, Humidity=75.38, Rice=32.99, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:10:57,784 INFO:Readings: Temp=33.86, Humidity=78.03, Rice=31.79, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:11:02,785 INFO:Humidifier deactivated (humidity=86.8%)
+2025-04-17 16:11:02,786 INFO:Readings: Temp=29.41, Humidity=86.8, Rice=29.42, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:11:07,787 INFO:Heater activated (temp=25.5°C)
+2025-04-17 16:11:07,791 INFO:Readings: Temp=25.5, Humidity=89.68, Rice=27.43, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:11:12,792 INFO:Readings: Temp=25.73, Humidity=82.71, Rice=27.13, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:11:17,793 INFO:Humidifier activated (humidity=75.45%)
+2025-04-17 16:11:17,795 INFO:Readings: Temp=29.89, Humidity=75.45, Rice=28.7, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:11:22,795 INFO:Heater deactivated (temp=34.15°C)
+2025-04-17 16:11:22,796 INFO:Readings: Temp=34.15, Humidity=77.85, Rice=31.13, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:11:27,797 INFO:Humidifier deactivated (humidity=86.62%)
+2025-04-17 16:11:27,868 INFO:Readings: Temp=34.59, Humidity=86.62, Rice=32.82, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:11:32,869 INFO:Readings: Temp=30.74, Humidity=89.71, Rice=32.64, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:11:37,870 INFO:Heater activated (temp=26.24°C)
+2025-04-17 16:11:37,871 INFO:Readings: Temp=26.24, Humidity=82.82, Rice=30.72, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:11:42,872 INFO:Humidifier activated (humidity=75.49%)
+2025-04-17 16:11:42,875 INFO:Readings: Temp=25.2, Humidity=75.49, Rice=28.33, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:11:47,876 INFO:Readings: Temp=28.57, Humidity=77.77, Rice=27.03, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:11:52,878 INFO:Heater deactivated (temp=33.26°C)
+2025-04-17 16:11:52,878 INFO:Humidifier deactivated (humidity=86.54%)
+2025-04-17 16:11:52,879 INFO:Readings: Temp=33.26, Humidity=86.54, Rice=27.68, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:11:57,881 INFO:Readings: Temp=34.95, Humidity=89.77, Rice=29.85, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:12:02,884 INFO:Readings: Temp=32.08, Humidity=83.04, Rice=32.12, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:12:07,885 INFO:Fan activated for 60 seconds
+2025-04-17 16:12:07,885 INFO:Heater activated (temp=27.3°C)
+2025-04-17 16:12:07,885 INFO:Humidifier activated (humidity=75.57%)
+2025-04-17 16:12:07,886 INFO:Readings: Temp=27.3, Humidity=75.57, Rice=33.0, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:12:12,887 INFO:Readings: Temp=25.0, Humidity=77.59, Rice=31.91, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:12:17,887 INFO:Humidifier deactivated (humidity=86.34%)
+2025-04-17 16:12:17,889 INFO:Readings: Temp=27.3, Humidity=86.34, Rice=29.57, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:12:22,890 INFO:Heater deactivated (temp=32.09°C)
+2025-04-17 16:12:22,891 INFO:Readings: Temp=32.09, Humidity=89.82, Rice=27.51, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:12:27,892 INFO:Readings: Temp=34.95, Humidity=83.27, Rice=27.09, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:12:32,892 INFO:Humidifier activated (humidity=75.66%)
+2025-04-17 16:12:32,893 INFO:Readings: Temp=33.26, Humidity=75.66, Rice=28.57, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:12:37,894 INFO:Readings: Temp=28.57, Humidity=77.42, Rice=30.99, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:12:42,894 INFO:Heater activated (temp=25.2°C)
+2025-04-17 16:12:42,895 INFO:Humidifier deactivated (humidity=86.13%)
+2025-04-17 16:12:42,895 INFO:Readings: Temp=25.2, Humidity=86.13, Rice=32.76, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:12:47,896 INFO:Readings: Temp=26.24, Humidity=89.87, Rice=32.72, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:12:52,901 INFO:Readings: Temp=30.74, Humidity=83.51, Rice=30.9, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:12:57,902 INFO:Heater deactivated (temp=34.56°C)
+2025-04-17 16:12:57,903 INFO:Humidifier activated (humidity=75.76%)
+2025-04-17 16:12:57,906 INFO:Readings: Temp=34.56, Humidity=75.76, Rice=28.48, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:13:02,908 INFO:Readings: Temp=34.18, Humidity=77.26, Rice=27.06, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:13:07,910 INFO:Fan deactivated
+2025-04-17 16:13:07,910 INFO:Humidifier deactivated (humidity=85.94%)
+2025-04-17 16:13:07,925 INFO:Readings: Temp=29.95, Humidity=85.94, Rice=27.57, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:13:12,925 INFO:Heater activated (temp=25.76°C)
+2025-04-17 16:13:12,926 INFO:Readings: Temp=25.76, Humidity=89.9, Rice=29.68, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:13:17,927 INFO:Readings: Temp=25.48, Humidity=83.7, Rice=31.99, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:13:22,928 INFO:Humidifier activated (humidity=75.85%)
+2025-04-17 16:13:22,929 INFO:Readings: Temp=29.36, Humidity=75.85, Rice=33.0, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:13:27,929 INFO:Heater deactivated (temp=33.83°C)
+2025-04-17 16:13:27,930 INFO:Readings: Temp=33.83, Humidity=77.11, Rice=32.04, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:13:32,931 INFO:Humidifier deactivated (humidity=85.75%)
+2025-04-17 16:13:32,931 INFO:Readings: Temp=34.77, Humidity=85.75, Rice=29.74, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:13:37,932 INFO:Readings: Temp=31.33, Humidity=89.94, Rice=27.62, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:13:42,933 INFO:Heater activated (temp=26.66°C)
+2025-04-17 16:13:42,933 INFO:Readings: Temp=26.66, Humidity=83.93, Rice=27.05, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:13:47,934 INFO:Humidifier activated (humidity=75.97%)
+2025-04-17 16:13:47,937 INFO:Readings: Temp=25.06, Humidity=75.97, Rice=28.42, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:13:52,938 INFO:Readings: Temp=28.01, Humidity=76.95, Rice=30.82, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:13:57,939 INFO:Heater deactivated (temp=32.78°C)
+2025-04-17 16:13:57,939 INFO:Humidifier deactivated (humidity=85.54%)
+2025-04-17 16:13:57,941 INFO:Readings: Temp=32.78, Humidity=85.54, Rice=32.69, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:14:02,948 INFO:Readings: Temp=35.0, Humidity=89.96, Rice=32.79, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:14:07,949 INFO:Readings: Temp=32.61, Humidity=84.15, Rice=31.06, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:14:12,953 INFO:Heater activated (temp=27.82°C)
+2025-04-17 16:14:12,953 INFO:Humidifier activated (humidity=76.07%)
+2025-04-17 16:14:12,954 INFO:Readings: Temp=27.82, Humidity=76.07, Rice=28.63, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:14:17,955 INFO:Readings: Temp=25.04, Humidity=76.81, Rice=27.1, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:14:22,956 INFO:Humidifier deactivated (humidity=85.34%)
+2025-04-17 16:14:22,960 INFO:Readings: Temp=26.82, Humidity=85.34, Rice=27.47, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:14:27,961 INFO:Readings: Temp=31.53, Humidity=89.98, Rice=29.5, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:14:32,962 INFO:Heater deactivated (temp=34.83°C)
+2025-04-17 16:14:32,962 INFO:Readings: Temp=34.83, Humidity=84.37, Rice=31.85, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:14:37,963 INFO:Humidifier activated (humidity=76.19%)
+2025-04-17 16:14:37,963 INFO:Readings: Temp=33.69, Humidity=76.19, Rice=32.99, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:14:42,964 INFO:Readings: Temp=29.15, Humidity=76.66, Rice=32.17, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:14:47,965 INFO:Heater activated (temp=25.39°C)
+2025-04-17 16:14:47,965 INFO:Humidifier deactivated (humidity=85.13%)
+2025-04-17 16:14:47,968 INFO:Readings: Temp=25.39, Humidity=85.13, Rice=29.93, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:14:52,970 INFO:Readings: Temp=25.88, Humidity=89.99, Rice=27.73, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:14:57,972 INFO:Readings: Temp=30.15, Humidity=84.59, Rice=27.02, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:15:02,972 INFO:Heater deactivated (temp=34.29°C)
+2025-04-17 16:15:02,973 INFO:Humidifier activated (humidity=76.32%)
+2025-04-17 16:15:02,973 INFO:Readings: Temp=34.29, Humidity=76.32, Rice=28.27, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:15:07,974 INFO:Fan activated for 60 seconds
+2025-04-17 16:15:07,977 INFO:Readings: Temp=34.48, Humidity=76.52, Rice=30.65, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:15:12,978 INFO:Readings: Temp=30.55, Humidity=84.91, Rice=32.6, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:15:17,979 INFO:Heater activated (temp=26.11°C)
+2025-04-17 16:15:17,979 INFO:Humidifier deactivated (humidity=90.0%)
+2025-04-17 16:15:17,980 INFO:Readings: Temp=26.11, Humidity=90.0, Rice=32.85, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:15:22,981 INFO:Readings: Temp=25.25, Humidity=84.81, Rice=31.23, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:15:27,982 INFO:Humidifier activated (humidity=76.46%)
+2025-04-17 16:15:27,985 INFO:Readings: Temp=28.76, Humidity=76.46, Rice=28.8, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:15:32,985 INFO:Heater deactivated (temp=33.41°C)
+2025-04-17 16:15:32,986 INFO:Readings: Temp=33.41, Humidity=76.38, Rice=27.16, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:15:37,987 INFO:Readings: Temp=34.92, Humidity=84.69, Rice=27.38, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:15:42,988 INFO:Humidifier deactivated (humidity=90.0%)
+2025-04-17 16:15:42,989 INFO:Readings: Temp=31.9, Humidity=90.0, Rice=29.32, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:15:47,991 INFO:Heater activated (temp=27.14°C)
+2025-04-17 16:15:47,992 INFO:Readings: Temp=27.14, Humidity=85.03, Rice=31.7, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:15:52,993 INFO:Humidifier activated (humidity=76.59%)
+2025-04-17 16:15:52,994 INFO:Readings: Temp=25.0, Humidity=76.59, Rice=32.97, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:15:57,999 INFO:Readings: Temp=27.47, Humidity=76.25, Rice=32.29, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:16:03,000 INFO:Heater deactivated (temp=32.26°C)
+2025-04-17 16:16:03,002 INFO:Readings: Temp=32.26, Humidity=84.48, Rice=30.11, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:16:08,003 INFO:Fan deactivated
+2025-04-17 16:16:08,003 INFO:Humidifier deactivated (humidity=89.99%)
+2025-04-17 16:16:08,004 INFO:Readings: Temp=34.97, Humidity=89.99, Rice=27.85, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:16:13,013 INFO:Readings: Temp=33.11, Humidity=85.24, Rice=27.01, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:16:18,013 INFO:Humidifier activated (humidity=76.73%)
+2025-04-17 16:16:18,020 INFO:Readings: Temp=28.37, Humidity=76.73, Rice=28.12, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:16:23,021 INFO:Heater activated (temp=25.14°C)
+2025-04-17 16:16:23,021 INFO:Readings: Temp=25.14, Humidity=76.14, Rice=30.48, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:16:28,022 INFO:Readings: Temp=26.38, Humidity=84.28, Rice=32.51, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:16:33,022 INFO:Humidifier deactivated (humidity=89.98%)
+2025-04-17 16:16:33,023 INFO:Readings: Temp=30.95, Humidity=89.98, Rice=32.9, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:16:38,023 INFO:Heater deactivated (temp=34.64°C)
+2025-04-17 16:16:38,023 INFO:Readings: Temp=34.64, Humidity=85.44, Rice=31.39, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:16:43,024 INFO:Humidifier activated (humidity=76.88%)
+2025-04-17 16:16:43,025 INFO:Readings: Temp=34.07, Humidity=76.88, Rice=28.97, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:16:48,027 INFO:Readings: Temp=29.75, Humidity=76.02, Rice=27.22, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:16:53,028 INFO:Heater activated (temp=25.66°C)
+2025-04-17 16:16:53,029 INFO:Readings: Temp=25.66, Humidity=84.04, Rice=27.3, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:16:58,029 INFO:Humidifier deactivated (humidity=89.95%)
+2025-04-17 16:16:58,030 INFO:Readings: Temp=25.57, Humidity=89.95, Rice=29.14, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:17:03,031 INFO:Readings: Temp=29.55, Humidity=85.65, Rice=31.55, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:17:08,038 INFO:Heater deactivated (temp=33.95°C)
+2025-04-17 16:17:08,039 INFO:Humidifier activated (humidity=77.03%)
+2025-04-17 16:17:08,044 INFO:Readings: Temp=33.95, Humidity=77.03, Rice=32.94, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:17:13,046 INFO:Readings: Temp=34.71, Humidity=75.92, Rice=32.4, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:17:18,047 INFO:Readings: Temp=31.13, Humidity=83.83, Rice=30.28, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:17:23,048 INFO:Heater activated (temp=26.51°C)
+2025-04-17 16:17:23,052 INFO:Humidifier deactivated (humidity=89.92%)
+2025-04-17 16:17:23,052 INFO:Readings: Temp=26.51, Humidity=89.92, Rice=27.98, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:17:28,053 INFO:Readings: Temp=25.1, Humidity=85.84, Rice=27.0, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:17:33,054 INFO:Humidifier activated (humidity=77.18%)
+2025-04-17 16:17:33,054 INFO:Readings: Temp=28.2, Humidity=77.18, Rice=27.99, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:17:38,057 INFO:Heater deactivated (temp=32.95°C)
+2025-04-17 16:17:38,057 INFO:Readings: Temp=32.95, Humidity=75.81, Rice=30.3, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:17:43,059 INFO:Readings: Temp=34.99, Humidity=83.61, Rice=32.41, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:17:48,060 INFO:Humidifier deactivated (humidity=89.89%)
+2025-04-17 16:17:48,061 INFO:Readings: Temp=32.44, Humidity=89.89, Rice=32.94, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:17:53,065 INFO:Heater activated (temp=27.64°C)
+2025-04-17 16:17:53,065 INFO:Readings: Temp=27.64, Humidity=86.04, Rice=31.55, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:17:58,066 INFO:Humidifier activated (humidity=77.34%)
+2025-04-17 16:17:58,067 INFO:Readings: Temp=25.02, Humidity=77.34, Rice=29.14, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:18:03,068 INFO:Readings: Temp=26.98, Humidity=75.71, Rice=27.29, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:18:08,069 INFO:Fan activated for 60 seconds
+2025-04-17 16:18:08,070 INFO:Readings: Temp=31.72, Humidity=83.38, Rice=27.22, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:18:13,070 INFO:Heater deactivated (temp=34.88°C)
+2025-04-17 16:18:13,071 INFO:Humidifier deactivated (humidity=89.85%)
+2025-04-17 16:18:13,071 INFO:Readings: Temp=34.88, Humidity=89.85, Rice=28.97, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:18:18,072 INFO:Readings: Temp=33.55, Humidity=86.24, Rice=31.4, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:18:23,072 INFO:Humidifier activated (humidity=77.51%)
+2025-04-17 16:18:23,077 INFO:Readings: Temp=28.96, Humidity=77.51, Rice=32.9, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:18:28,077 INFO:Heater activated (temp=25.32°C)
+2025-04-17 16:18:28,078 INFO:Readings: Temp=25.32, Humidity=75.62, Rice=32.51, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:18:33,079 INFO:Readings: Temp=25.99, Humidity=83.15, Rice=30.47, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:18:38,080 INFO:Humidifier deactivated (humidity=89.8%)
+2025-04-17 16:18:38,080 INFO:Readings: Temp=30.35, Humidity=89.8, Rice=28.12, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:18:43,080 INFO:Heater deactivated (temp=34.39°C)
+2025-04-17 16:18:43,081 INFO:Readings: Temp=34.39, Humidity=86.44, Rice=27.01, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:18:48,082 INFO:Humidifier activated (humidity=77.69%)
+2025-04-17 16:18:48,083 INFO:Readings: Temp=34.39, Humidity=77.69, Rice=27.85, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:18:53,084 INFO:Readings: Temp=30.35, Humidity=75.52, Rice=30.11, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:18:58,084 INFO:Heater activated (temp=25.99°C)
+2025-04-17 16:18:58,084 INFO:Readings: Temp=25.99, Humidity=82.92, Rice=32.29, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:19:03,085 INFO:Humidifier deactivated (humidity=89.74%)
+2025-04-17 16:19:03,085 INFO:Readings: Temp=25.32, Humidity=89.74, Rice=32.97, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:19:08,086 INFO:Fan deactivated
+2025-04-17 16:19:08,087 INFO:Readings: Temp=28.95, Humidity=86.65, Rice=31.7, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:19:13,088 INFO:Heater deactivated (temp=33.55°C)
+2025-04-17 16:19:13,088 INFO:Humidifier activated (humidity=77.87%)
+2025-04-17 16:19:13,089 INFO:Readings: Temp=33.55, Humidity=77.87, Rice=29.32, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:19:18,090 INFO:Readings: Temp=34.88, Humidity=75.44, Rice=27.38, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:19:23,093 INFO:Readings: Temp=31.72, Humidity=82.68, Rice=27.16, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:19:28,093 INFO:Heater activated (temp=26.98°C)
+2025-04-17 16:19:28,093 INFO:Humidifier deactivated (humidity=89.67%)
+2025-04-17 16:19:28,094 INFO:Readings: Temp=26.98, Humidity=89.67, Rice=28.8, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:19:33,095 INFO:Readings: Temp=25.01, Humidity=86.84, Rice=31.23, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:19:38,095 INFO:Humidifier activated (humidity=78.06%)
+2025-04-17 16:19:38,096 INFO:Readings: Temp=27.63, Humidity=78.06, Rice=32.85, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:19:43,096 INFO:Heater deactivated (temp=32.43°C)
+2025-04-17 16:19:43,097 INFO:Readings: Temp=32.43, Humidity=75.36, Rice=32.61, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:19:48,099 INFO:Readings: Temp=34.99, Humidity=82.44, Rice=30.65, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:19:53,101 INFO:Humidifier deactivated (humidity=89.6%)
+2025-04-17 16:19:53,103 INFO:Readings: Temp=32.96, Humidity=89.6, Rice=28.27, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:19:58,105 INFO:Readings: Temp=28.21, Humidity=87.02, Rice=27.02, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:20:03,105 INFO:Heater activated (temp=25.1°C)
+2025-04-17 16:20:03,106 INFO:Humidifier activated (humidity=78.25%)
+2025-04-17 16:20:03,106 INFO:Readings: Temp=25.1, Humidity=78.25, Rice=27.73, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:20:08,107 INFO:Readings: Temp=26.5, Humidity=75.3, Rice=29.92, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:20:13,109 INFO:Readings: Temp=31.12, Humidity=82.21, Rice=32.17, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:20:18,109 INFO:Heater deactivated (temp=34.71°C)
+2025-04-17 16:20:18,110 INFO:Humidifier deactivated (humidity=89.52%)
+2025-04-17 16:20:18,110 INFO:Readings: Temp=34.71, Humidity=89.52, Rice=32.99, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:20:23,111 INFO:Readings: Temp=33.96, Humidity=87.21, Rice=31.85, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:20:28,111 INFO:Humidifier activated (humidity=78.44%)
+2025-04-17 16:20:28,112 INFO:Readings: Temp=29.57, Humidity=78.44, Rice=29.5, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:20:33,113 INFO:Heater activated (temp=25.58°C)
+2025-04-17 16:20:33,113 INFO:Readings: Temp=25.58, Humidity=75.23, Rice=27.47, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:20:38,114 INFO:Readings: Temp=25.65, Humidity=81.98, Rice=27.1, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:20:43,116 INFO:Humidifier deactivated (humidity=89.44%)
+2025-04-17 16:20:43,118 INFO:Readings: Temp=29.72, Humidity=89.44, Rice=28.63, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:20:48,119 INFO:Heater deactivated (temp=34.05°C)
+2025-04-17 16:20:48,119 INFO:Readings: Temp=34.05, Humidity=87.39, Rice=31.06, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:20:53,120 INFO:Humidifier activated (humidity=78.64%)
+2025-04-17 16:20:53,121 INFO:Readings: Temp=34.65, Humidity=78.64, Rice=32.79, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:20:58,123 INFO:Readings: Temp=30.97, Humidity=75.18, Rice=32.69, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:21:03,123 INFO:Heater activated (temp=26.4°C)
+2025-04-17 16:21:03,124 INFO:Readings: Temp=26.4, Humidity=81.75, Rice=30.83, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:21:08,124 INFO:Fan activated for 60 seconds
+2025-04-17 16:21:08,125 INFO:Humidifier deactivated (humidity=89.34%)
+2025-04-17 16:21:08,127 INFO:Readings: Temp=25.14, Humidity=89.34, Rice=28.43, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:21:13,129 INFO:Readings: Temp=28.35, Humidity=87.56, Rice=27.05, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:21:18,133 INFO:Heater deactivated (temp=33.08°C)
+2025-04-17 16:21:18,134 INFO:Humidifier activated (humidity=78.84%)
+2025-04-17 16:21:18,134 INFO:Readings: Temp=33.08, Humidity=78.84, Rice=27.61, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:21:23,136 INFO:Readings: Temp=34.98, Humidity=75.13, Rice=29.74, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:21:28,137 INFO:Readings: Temp=32.29, Humidity=81.52, Rice=32.04, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:21:33,139 INFO:Heater activated (temp=27.5°C)
+2025-04-17 16:21:33,140 INFO:Humidifier deactivated (humidity=89.25%)
+2025-04-17 16:21:33,141 INFO:Readings: Temp=27.5, Humidity=89.25, Rice=33.0, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:21:38,142 INFO:Readings: Temp=25.01, Humidity=87.73, Rice=32.0, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:21:43,143 INFO:Humidifier activated (humidity=79.04%)
+2025-04-17 16:21:43,146 INFO:Readings: Temp=27.11, Humidity=79.04, Rice=29.68, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:21:48,148 INFO:Readings: Temp=31.88, Humidity=75.1, Rice=27.58, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:21:53,148 INFO:Heater deactivated (temp=34.91°C)
+2025-04-17 16:21:53,150 INFO:Readings: Temp=34.91, Humidity=81.3, Rice=27.06, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:21:58,150 INFO:Humidifier deactivated (humidity=89.15%)
+2025-04-17 16:21:58,151 INFO:Readings: Temp=33.43, Humidity=89.15, Rice=28.47, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:22:03,152 INFO:Readings: Temp=28.79, Humidity=87.89, Rice=30.88, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:22:08,153 INFO:Fan deactivated
+2025-04-17 16:22:08,154 INFO:Heater activated (temp=25.26°C)
+2025-04-17 16:22:08,154 INFO:Humidifier activated (humidity=79.24%)
+2025-04-17 16:22:08,155 INFO:Readings: Temp=25.26, Humidity=79.24, Rice=32.72, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:22:13,156 INFO:Readings: Temp=26.09, Humidity=75.06, Rice=32.77, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:22:18,158 INFO:Readings: Temp=30.52, Humidity=81.07, Rice=31.01, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:22:23,158 INFO:Heater deactivated (temp=34.46°C)
+2025-04-17 16:22:23,159 INFO:Humidifier deactivated (humidity=89.04%)
+2025-04-17 16:22:23,160 INFO:Readings: Temp=34.46, Humidity=89.04, Rice=28.58, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:22:28,161 INFO:Readings: Temp=34.31, Humidity=88.05, Rice=27.09, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:22:33,162 INFO:Humidifier activated (humidity=79.46%)
+2025-04-17 16:22:33,163 INFO:Readings: Temp=30.19, Humidity=79.46, Rice=27.5, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:22:38,164 INFO:Heater activated (temp=25.9°C)
+2025-04-17 16:22:38,165 INFO:Readings: Temp=25.9, Humidity=75.04, Rice=29.56, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:22:43,166 INFO:Readings: Temp=25.38, Humidity=80.84, Rice=31.9, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:22:48,167 INFO:Humidifier deactivated (humidity=88.92%)
+2025-04-17 16:22:48,168 INFO:Readings: Temp=29.12, Humidity=88.92, Rice=33.0, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:22:53,169 INFO:Heater deactivated (temp=33.66°C)
+2025-04-17 16:22:53,170 INFO:Readings: Temp=33.66, Humidity=88.2, Rice=32.13, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:22:58,171 INFO:Humidifier activated (humidity=79.67%)
+2025-04-17 16:22:58,172 INFO:Readings: Temp=34.84, Humidity=79.67, Rice=29.87, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:23:03,172 INFO:Readings: Temp=31.57, Humidity=75.02, Rice=27.69, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:23:08,173 INFO:Heater activated (temp=26.85°C)
+2025-04-17 16:23:08,174 INFO:Readings: Temp=26.85, Humidity=80.62, Rice=27.03, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:23:13,175 INFO:Humidifier deactivated (humidity=88.8%)
+2025-04-17 16:23:13,176 INFO:Readings: Temp=25.03, Humidity=88.8, Rice=28.31, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:23:18,177 INFO:Readings: Temp=27.78, Humidity=88.35, Rice=30.7, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:23:23,178 INFO:Heater deactivated (temp=32.58°C)
+2025-04-17 16:23:23,179 INFO:Humidifier activated (humidity=79.89%)
+2025-04-17 16:23:23,179 INFO:Readings: Temp=32.58, Humidity=79.89, Rice=32.63, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:23:28,181 INFO:Readings: Temp=35.0, Humidity=75.0, Rice=32.83, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:23:33,183 INFO:Readings: Temp=32.82, Humidity=80.39, Rice=31.18, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:23:38,184 INFO:Humidifier deactivated (humidity=88.67%)
+2025-04-17 16:23:38,188 INFO:Readings: Temp=28.05, Humidity=88.67, Rice=28.75, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:23:43,188 INFO:Heater activated (temp=25.07°C)
+2025-04-17 16:23:43,193 INFO:Readings: Temp=25.07, Humidity=88.49, Rice=27.14, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:23:48,197 INFO:Readings: Temp=26.63, Humidity=80.09, Rice=27.41, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:23:53,199 INFO:Humidifier activated (humidity=75.0%)
+2025-04-17 16:23:53,200 INFO:Readings: Temp=31.3, Humidity=75.0, Rice=29.38, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:23:58,201 INFO:Heater deactivated (temp=34.76°C)
+2025-04-17 16:23:58,202 INFO:Readings: Temp=34.76, Humidity=80.19, Rice=31.75, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:24:03,204 INFO:Humidifier deactivated (humidity=88.54%)
+2025-04-17 16:24:03,207 INFO:Readings: Temp=33.85, Humidity=88.54, Rice=32.98, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:24:08,208 INFO:Fan activated for 60 seconds
+2025-04-17 16:24:08,209 INFO:Readings: Temp=29.39, Humidity=88.61, Rice=32.25, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:24:13,213 INFO:Heater activated (temp=25.49°C)
+2025-04-17 16:24:13,216 INFO:Readings: Temp=25.49, Humidity=80.3, Rice=30.05, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:24:18,217 INFO:Humidifier activated (humidity=75.0%)
+2025-04-17 16:24:18,217 INFO:Readings: Temp=25.75, Humidity=75.0, Rice=27.81, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:24:23,219 INFO:Readings: Temp=29.91, Humidity=79.98, Rice=27.01, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:24:28,219 INFO:Heater deactivated (temp=34.16°C)
+2025-04-17 16:24:28,220 INFO:Humidifier deactivated (humidity=88.41%)
+2025-04-17 16:24:28,223 INFO:Readings: Temp=34.16, Humidity=88.41, Rice=28.17, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:24:33,224 INFO:Readings: Temp=34.58, Humidity=88.74, Rice=30.53, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:24:38,229 INFO:Readings: Temp=30.78, Humidity=80.51, Rice=32.54, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:24:43,232 INFO:Heater activated (temp=26.26°C)
+2025-04-17 16:24:43,237 INFO:Humidifier activated (humidity=75.01%)
+2025-04-17 16:24:43,238 INFO:Readings: Temp=26.26, Humidity=75.01, Rice=32.89, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:24:48,239 INFO:Readings: Temp=25.19, Humidity=79.78, Rice=31.33, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:24:53,240 INFO:Humidifier deactivated (humidity=88.28%)
+2025-04-17 16:24:53,241 INFO:Readings: Temp=28.54, Humidity=88.28, Rice=28.91, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:24:58,242 INFO:Heater deactivated (temp=33.24°C)
+2025-04-17 16:24:58,245 INFO:Readings: Temp=33.24, Humidity=88.86, Rice=27.2, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:25:03,247 INFO:Readings: Temp=34.95, Humidity=80.72, Rice=27.32, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:25:08,250 INFO:Fan deactivated
+2025-04-17 16:25:08,251 INFO:Humidifier activated (humidity=75.02%)
+2025-04-17 16:25:08,254 INFO:Readings: Temp=32.11, Humidity=75.02, Rice=29.21, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:25:13,254 INFO:Heater activated (temp=27.32°C)
+2025-04-17 16:25:13,258 INFO:Readings: Temp=27.32, Humidity=79.58, Rice=31.61, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:25:18,258 INFO:Humidifier deactivated (humidity=88.14%)
+2025-04-17 16:25:18,259 INFO:Readings: Temp=25.0, Humidity=88.14, Rice=32.96, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:25:23,260 INFO:Readings: Temp=27.28, Humidity=88.97, Rice=32.36, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:25:28,262 INFO:Heater deactivated (temp=32.06°C)
+2025-04-17 16:25:28,269 INFO:Readings: Temp=32.06, Humidity=80.93, Rice=30.22, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:25:33,269 INFO:Humidifier activated (humidity=75.04%)
+2025-04-17 16:25:33,270 INFO:Readings: Temp=34.95, Humidity=75.04, Rice=27.93, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:25:38,272 INFO:Readings: Temp=33.28, Humidity=79.38, Rice=27.0, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:25:43,275 INFO:Humidifier deactivated (humidity=87.99%)
+2025-04-17 16:25:43,279 INFO:Readings: Temp=28.59, Humidity=87.99, Rice=28.04, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:25:48,280 INFO:Heater activated (temp=25.2°C)
+2025-04-17 16:25:48,281 INFO:Readings: Temp=25.2, Humidity=89.07, Rice=30.36, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:25:53,282 INFO:Readings: Temp=26.23, Humidity=81.14, Rice=32.45, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:25:58,283 INFO:Humidifier activated (humidity=75.07%)
+2025-04-17 16:25:58,284 INFO:Readings: Temp=30.73, Humidity=75.07, Rice=32.93, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:26:03,284 INFO:Heater deactivated (temp=34.56°C)
+2025-04-17 16:26:03,285 INFO:Readings: Temp=34.56, Humidity=79.18, Rice=31.49, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:26:08,286 INFO:Humidifier deactivated (humidity=87.84%)
+2025-04-17 16:26:08,287 INFO:Readings: Temp=34.19, Humidity=87.84, Rice=29.07, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:26:13,289 INFO:Readings: Temp=29.97, Humidity=89.18, Rice=27.26, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:26:18,289 INFO:Heater activated (temp=25.78°C)
+2025-04-17 16:26:18,290 INFO:Readings: Temp=25.78, Humidity=81.37, Rice=27.25, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:26:23,291 INFO:Humidifier activated (humidity=75.11%)
+2025-04-17 16:26:23,292 INFO:Readings: Temp=25.47, Humidity=75.11, Rice=29.04, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:26:28,296 INFO:Readings: Temp=29.33, Humidity=78.97, Rice=31.46, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:26:33,297 INFO:Heater deactivated (temp=33.81°C)
+2025-04-17 16:26:33,297 INFO:Humidifier deactivated (humidity=87.67%)
+2025-04-17 16:26:33,298 INFO:Readings: Temp=33.81, Humidity=87.67, Rice=32.92, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:26:38,301 INFO:Readings: Temp=34.78, Humidity=89.28, Rice=32.47, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:26:43,303 INFO:Readings: Temp=31.36, Humidity=81.59, Rice=30.4, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:26:48,305 INFO:Heater activated (temp=26.68°C)
+2025-04-17 16:26:48,306 INFO:Humidifier activated (humidity=75.15%)
+2025-04-17 16:26:48,309 INFO:Readings: Temp=26.68, Humidity=75.15, Rice=28.07, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:26:53,310 INFO:Readings: Temp=25.06, Humidity=78.78, Rice=27.0, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:26:58,311 INFO:Humidifier deactivated (humidity=87.51%)
+2025-04-17 16:26:58,312 INFO:Readings: Temp=27.99, Humidity=87.51, Rice=27.9, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:27:03,313 INFO:Heater deactivated (temp=32.76°C)
+2025-04-17 16:27:03,313 INFO:Readings: Temp=32.76, Humidity=89.37, Rice=30.18, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:27:08,314 INFO:Fan activated for 60 seconds
+2025-04-17 16:27:08,315 INFO:Readings: Temp=35.0, Humidity=81.82, Rice=32.34, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:27:13,316 INFO:Humidifier activated (humidity=75.2%)
+2025-04-17 16:27:13,317 INFO:Readings: Temp=32.64, Humidity=75.2, Rice=32.96, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:27:18,318 INFO:Heater activated (temp=27.85°C)
+2025-04-17 16:27:18,319 INFO:Readings: Temp=27.85, Humidity=78.58, Rice=31.65, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:27:23,319 INFO:Humidifier deactivated (humidity=87.34%)
+2025-04-17 16:27:23,320 INFO:Readings: Temp=25.04, Humidity=87.34, Rice=29.25, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:27:28,321 INFO:Readings: Temp=26.8, Humidity=89.46, Rice=27.34, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:27:33,323 INFO:Readings: Temp=31.5, Humidity=82.05, Rice=27.18, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:27:38,323 INFO:Heater deactivated (temp=34.82°C)
+2025-04-17 16:27:38,324 INFO:Humidifier activated (humidity=75.25%)
+2025-04-17 16:27:38,325 INFO:Readings: Temp=34.82, Humidity=75.25, Rice=28.87, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:27:43,326 INFO:Readings: Temp=33.71, Humidity=78.38, Rice=31.29, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:27:48,328 INFO:Humidifier deactivated (humidity=87.16%)
+2025-04-17 16:27:48,331 INFO:Readings: Temp=29.18, Humidity=87.16, Rice=32.87, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:27:53,332 INFO:Heater activated (temp=25.41°C)
+2025-04-17 16:27:53,333 INFO:Readings: Temp=25.41, Humidity=89.55, Rice=32.57, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:27:58,334 INFO:Readings: Temp=25.86, Humidity=82.28, Rice=30.58, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:28:03,335 INFO:Humidifier activated (humidity=75.32%)
+2025-04-17 16:28:03,339 INFO:Readings: Temp=30.12, Humidity=75.32, Rice=28.21, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:28:08,339 INFO:Fan deactivated
+2025-04-17 16:28:08,344 INFO:Heater deactivated (temp=34.27°C)
+2025-04-17 16:28:08,345 INFO:Readings: Temp=34.27, Humidity=78.2, Rice=27.01, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:28:13,346 INFO:Humidifier deactivated (humidity=86.98%)
+2025-04-17 16:28:13,350 INFO:Readings: Temp=34.49, Humidity=86.98, Rice=27.78, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:28:18,356 INFO:Readings: Temp=30.57, Humidity=89.62, Rice=30.0, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:28:23,357 INFO:Heater activated (temp=26.13°C)
+2025-04-17 16:28:23,358 INFO:Readings: Temp=26.13, Humidity=82.48, Rice=32.22, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:28:28,359 INFO:Humidifier activated (humidity=75.38%)
+2025-04-17 16:28:28,360 INFO:Readings: Temp=25.25, Humidity=75.38, Rice=32.99, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:28:33,361 INFO:Readings: Temp=28.74, Humidity=78.03, Rice=31.79, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:28:38,362 INFO:Heater deactivated (temp=33.39°C)
+2025-04-17 16:28:38,362 INFO:Humidifier deactivated (humidity=86.81%)
+2025-04-17 16:28:38,363 INFO:Readings: Temp=33.39, Humidity=86.81, Rice=29.42, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:28:43,368 INFO:Readings: Temp=34.92, Humidity=89.68, Rice=27.43, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:28:48,372 INFO:Readings: Temp=31.92, Humidity=82.71, Rice=27.13, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:28:53,373 INFO:Heater activated (temp=27.15°C)
+2025-04-17 16:28:53,373 INFO:Humidifier activated (humidity=75.45%)
+2025-04-17 16:28:53,374 INFO:Readings: Temp=27.15, Humidity=75.45, Rice=28.71, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:28:58,375 INFO:Readings: Temp=25.0, Humidity=77.85, Rice=31.13, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:29:03,376 INFO:Humidifier deactivated (humidity=86.62%)
+2025-04-17 16:29:03,377 INFO:Readings: Temp=27.45, Humidity=86.62, Rice=32.82, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:29:08,378 INFO:Heater deactivated (temp=32.25°C)
+2025-04-17 16:29:08,379 INFO:Readings: Temp=32.25, Humidity=89.74, Rice=32.66, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:29:13,380 INFO:Readings: Temp=34.97, Humidity=82.94, Rice=30.75, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:29:18,381 INFO:Humidifier activated (humidity=75.53%)
+2025-04-17 16:29:18,382 INFO:Readings: Temp=33.12, Humidity=75.53, Rice=28.35, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:29:23,383 INFO:Readings: Temp=28.4, Humidity=77.67, Rice=27.04, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:29:28,384 INFO:Heater activated (temp=25.15°C)
+2025-04-17 16:29:28,385 INFO:Humidifier deactivated (humidity=86.43%)
+2025-04-17 16:29:28,388 INFO:Readings: Temp=25.15, Humidity=86.43, Rice=27.66, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:29:33,389 INFO:Readings: Temp=26.36, Humidity=89.8, Rice=29.82, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:29:38,393 INFO:Readings: Temp=30.92, Humidity=83.16, Rice=32.1, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:29:43,396 INFO:Heater deactivated (temp=34.64°C)
+2025-04-17 16:29:43,401 INFO:Humidifier activated (humidity=75.62%)
+2025-04-17 16:29:43,402 INFO:Readings: Temp=34.64, Humidity=75.62, Rice=33.0, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:29:48,404 INFO:Readings: Temp=34.08, Humidity=77.51, Rice=31.93, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:29:53,406 INFO:Humidifier deactivated (humidity=86.25%)
+2025-04-17 16:29:53,407 INFO:Readings: Temp=29.77, Humidity=86.25, Rice=29.6, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:29:58,408 INFO:Heater activated (temp=25.67°C)
+2025-04-17 16:29:58,409 INFO:Readings: Temp=25.67, Humidity=89.85, Rice=27.53, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:30:03,411 INFO:Readings: Temp=25.56, Humidity=83.38, Rice=27.08, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:30:08,412 INFO:Fan activated for 60 seconds
+2025-04-17 16:30:08,413 INFO:Humidifier activated (humidity=75.71%)
+2025-04-17 16:30:08,414 INFO:Readings: Temp=29.53, Humidity=75.71, Rice=28.55, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:30:13,414 INFO:Heater deactivated (temp=33.94°C)
+2025-04-17 16:30:13,417 INFO:Readings: Temp=33.94, Humidity=77.34, Rice=30.97, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:30:18,418 INFO:Humidifier deactivated (humidity=86.05%)
+2025-04-17 16:30:18,421 INFO:Readings: Temp=34.72, Humidity=86.05, Rice=32.75, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:30:23,422 INFO:Readings: Temp=31.16, Humidity=89.89, Rice=32.73, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:30:28,423 INFO:Heater activated (temp=26.53°C)
+2025-04-17 16:30:28,426 INFO:Readings: Temp=26.53, Humidity=83.6, Rice=30.92, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:30:33,427 INFO:Humidifier activated (humidity=75.8%)
+2025-04-17 16:30:33,428 INFO:Readings: Temp=25.1, Humidity=75.8, Rice=28.5, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:30:38,430 INFO:Readings: Temp=28.18, Humidity=77.19, Rice=27.07, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:30:43,431 INFO:Heater deactivated (temp=32.93°C)
+2025-04-17 16:30:43,434 INFO:Humidifier deactivated (humidity=85.85%)
+2025-04-17 16:30:43,435 INFO:Readings: Temp=32.93, Humidity=85.85, Rice=27.56, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:30:48,436 INFO:Readings: Temp=34.99, Humidity=89.92, Rice=29.65, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:30:53,440 INFO:Readings: Temp=32.45, Humidity=83.82, Rice=31.97, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:30:58,443 INFO:Heater activated (temp=27.66°C)
+2025-04-17 16:30:58,443 INFO:Humidifier activated (humidity=75.9%)
+2025-04-17 16:30:58,444 INFO:Readings: Temp=27.66, Humidity=75.9, Rice=33.0, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:31:03,445 INFO:Readings: Temp=25.02, Humidity=77.03, Rice=32.06, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:31:08,446 INFO:Fan deactivated
+2025-04-17 16:31:08,447 INFO:Humidifier deactivated (humidity=85.65%)
+2025-04-17 16:31:08,448 INFO:Readings: Temp=26.96, Humidity=85.65, Rice=29.77, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:31:13,449 INFO:Readings: Temp=31.7, Humidity=89.95, Rice=27.63, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:31:18,450 INFO:Heater deactivated (temp=34.88°C)
+2025-04-17 16:31:18,450 INFO:Readings: Temp=34.88, Humidity=84.04, Rice=27.04, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:31:23,451 INFO:Humidifier activated (humidity=76.02%)
+2025-04-17 16:31:23,452 INFO:Readings: Temp=33.56, Humidity=76.02, Rice=28.39, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:31:28,453 INFO:Readings: Temp=28.97, Humidity=76.88, Rice=30.79, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:31:33,454 INFO:Heater activated (temp=25.33°C)
+2025-04-17 16:31:33,455 INFO:Humidifier deactivated (humidity=85.44%)
+2025-04-17 16:31:33,455 INFO:Readings: Temp=25.33, Humidity=85.44, Rice=32.68, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:31:38,457 INFO:Readings: Temp=25.98, Humidity=89.97, Rice=32.8, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:31:43,458 INFO:Readings: Temp=30.33, Humidity=84.27, Rice=31.09, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:31:48,458 INFO:Heater deactivated (temp=34.38°C)
+2025-04-17 16:31:48,459 INFO:Humidifier activated (humidity=76.14%)
+2025-04-17 16:31:48,460 INFO:Readings: Temp=34.38, Humidity=76.14, Rice=28.67, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:31:53,461 INFO:Readings: Temp=34.4, Humidity=76.72, Rice=27.11, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:31:58,464 INFO:Humidifier deactivated (humidity=85.22%)
+2025-04-17 16:31:58,465 INFO:Readings: Temp=30.37, Humidity=85.22, Rice=27.45, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:32:03,466 INFO:Heater activated (temp=26.0°C)
+2025-04-17 16:32:03,467 INFO:Readings: Temp=26.0, Humidity=89.99, Rice=29.46, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:32:08,468 INFO:Readings: Temp=25.31, Humidity=84.49, Rice=31.83, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:32:13,469 INFO:Humidifier activated (humidity=76.27%)
+2025-04-17 16:32:13,470 INFO:Readings: Temp=28.93, Humidity=76.27, Rice=32.99, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:32:18,470 INFO:Heater deactivated (temp=33.54°C)
+2025-04-17 16:32:18,471 INFO:Readings: Temp=33.54, Humidity=76.58, Rice=32.19, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:32:23,472 INFO:Humidifier deactivated (humidity=85.01%)
+2025-04-17 16:32:23,474 INFO:Readings: Temp=34.88, Humidity=85.01, Rice=29.96, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:32:28,475 INFO:Readings: Temp=31.74, Humidity=90.0, Rice=27.75, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:32:33,476 INFO:Heater activated (temp=26.99°C)
+2025-04-17 16:32:33,477 INFO:Readings: Temp=26.99, Humidity=84.72, Rice=27.02, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:32:38,478 INFO:Humidifier activated (humidity=76.4%)
+2025-04-17 16:32:38,479 INFO:Readings: Temp=25.01, Humidity=76.4, Rice=28.24, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:32:43,480 INFO:Readings: Temp=27.62, Humidity=76.44, Rice=30.61, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:32:48,481 INFO:Heater deactivated (temp=32.42°C)
+2025-04-17 16:32:48,482 INFO:Readings: Temp=32.42, Humidity=84.79, Rice=32.59, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:32:53,483 INFO:Humidifier deactivated (humidity=90.0%)
+2025-04-17 16:32:53,484 INFO:Readings: Temp=34.99, Humidity=90.0, Rice=32.86, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:32:58,485 INFO:Readings: Temp=32.97, Humidity=84.94, Rice=31.26, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:33:03,486 INFO:Humidifier activated (humidity=76.54%)
+2025-04-17 16:33:03,487 INFO:Readings: Temp=28.22, Humidity=76.54, Rice=28.83, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:33:08,488 INFO:Fan activated for 60 seconds
+2025-04-17 16:33:08,488 INFO:Heater activated (temp=25.11°C)
+2025-04-17 16:33:08,489 INFO:Readings: Temp=25.11, Humidity=76.31, Rice=27.17, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:33:13,490 INFO:Readings: Temp=26.49, Humidity=84.56, Rice=27.36, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:33:18,493 INFO:Humidifier deactivated (humidity=89.99%)
+2025-04-17 16:33:18,496 INFO:Readings: Temp=31.11, Humidity=89.99, Rice=29.28, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:33:23,497 INFO:Heater deactivated (temp=34.7°C)
+2025-04-17 16:33:23,499 INFO:Readings: Temp=34.7, Humidity=85.15, Rice=31.68, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:33:28,500 INFO:Humidifier activated (humidity=76.67%)
+2025-04-17 16:33:28,501 INFO:Readings: Temp=33.97, Humidity=76.67, Rice=32.97, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:33:33,502 INFO:Readings: Temp=29.58, Humidity=76.18, Rice=32.32, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:33:38,503 INFO:Heater activated (temp=25.58°C)
+2025-04-17 16:33:38,504 INFO:Readings: Temp=25.58, Humidity=84.35, Rice=30.14, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:33:43,504 INFO:Humidifier deactivated (humidity=89.98%)
+2025-04-17 16:33:43,507 INFO:Readings: Temp=25.64, Humidity=89.98, Rice=27.88, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:33:48,510 INFO:Readings: Temp=29.72, Humidity=85.36, Rice=27.0, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:33:53,511 INFO:Heater deactivated (temp=34.05°C)
+2025-04-17 16:33:53,512 INFO:Humidifier activated (humidity=76.82%)
+2025-04-17 16:33:53,514 INFO:Readings: Temp=34.05, Humidity=76.82, Rice=28.09, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:33:58,515 INFO:Readings: Temp=34.65, Humidity=76.06, Rice=30.44, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:34:03,517 INFO:Readings: Temp=30.98, Humidity=84.13, Rice=32.49, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:34:08,518 INFO:Fan deactivated
+2025-04-17 16:34:08,518 INFO:Heater activated (temp=26.4°C)
+2025-04-17 16:34:08,519 INFO:Humidifier deactivated (humidity=89.96%)
+2025-04-17 16:34:08,520 INFO:Readings: Temp=26.4, Humidity=89.96, Rice=32.91, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:34:13,521 INFO:Readings: Temp=25.14, Humidity=85.57, Rice=31.42, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:34:18,525 INFO:Humidifier activated (humidity=76.97%)
+2025-04-17 16:34:18,531 INFO:Readings: Temp=28.35, Humidity=76.97, Rice=29.0, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:34:23,532 INFO:Heater deactivated (temp=33.09°C)
+2025-04-17 16:34:23,533 INFO:Readings: Temp=33.09, Humidity=75.96, Rice=27.23, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:34:28,535 INFO:Readings: Temp=34.98, Humidity=83.92, Rice=27.28, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:34:33,535 INFO:Humidifier deactivated (humidity=89.94%)
+2025-04-17 16:34:33,536 INFO:Readings: Temp=32.29, Humidity=89.94, Rice=29.11, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:34:38,537 INFO:Heater activated (temp=27.5°C)
+2025-04-17 16:34:38,538 INFO:Readings: Temp=27.5, Humidity=85.77, Rice=31.52, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:34:43,539 INFO:Humidifier activated (humidity=77.12%)
+2025-04-17 16:34:43,540 INFO:Readings: Temp=25.01, Humidity=77.12, Rice=32.94, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:34:48,541 INFO:Readings: Temp=27.11, Humidity=75.85, Rice=32.43, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:34:53,542 INFO:Readings: Temp=31.87, Humidity=83.69, Rice=30.32, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:34:58,543 INFO:Heater deactivated (temp=34.91°C)
+2025-04-17 16:34:58,544 INFO:Humidifier deactivated (humidity=89.9%)
+2025-04-17 16:34:58,544 INFO:Readings: Temp=34.91, Humidity=89.9, Rice=28.01, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:35:03,546 INFO:Readings: Temp=33.43, Humidity=85.98, Rice=27.0, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:35:08,548 INFO:Humidifier activated (humidity=77.28%)
+2025-04-17 16:35:08,551 INFO:Readings: Temp=28.79, Humidity=77.28, Rice=27.96, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:35:13,552 INFO:Heater activated (temp=25.26°C)
+2025-04-17 16:35:13,553 INFO:Readings: Temp=25.26, Humidity=75.74, Rice=30.26, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:35:18,554 INFO:Readings: Temp=26.09, Humidity=83.46, Rice=32.39, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:35:23,555 INFO:Humidifier deactivated (humidity=89.86%)
+2025-04-17 16:35:23,561 INFO:Readings: Temp=30.52, Humidity=89.86, Rice=32.95, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:35:28,561 INFO:Heater deactivated (temp=34.47°C)
+2025-04-17 16:35:28,562 INFO:Readings: Temp=34.47, Humidity=86.17, Rice=31.58, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:35:33,563 INFO:Humidifier activated (humidity=77.45%)
+2025-04-17 16:35:33,564 INFO:Readings: Temp=34.3, Humidity=77.45, Rice=29.17, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:35:38,565 INFO:Readings: Temp=30.18, Humidity=75.65, Rice=27.31, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:35:43,566 INFO:Heater activated (temp=25.89°C)
+2025-04-17 16:35:43,570 INFO:Readings: Temp=25.89, Humidity=83.24, Rice=27.21, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:35:48,570 INFO:Humidifier deactivated (humidity=89.82%)
+2025-04-17 16:35:48,573 INFO:Readings: Temp=25.38, Humidity=89.82, Rice=28.94, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:35:53,575 INFO:Readings: Temp=29.12, Humidity=86.36, Rice=31.37, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:35:58,576 INFO:Heater deactivated (temp=33.67°C)
+2025-04-17 16:35:58,576 INFO:Humidifier activated (humidity=77.61%)
+2025-04-17 16:35:58,577 INFO:Readings: Temp=33.67, Humidity=77.61, Rice=32.9, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:36:03,629 INFO:Readings: Temp=34.84, Humidity=75.56, Rice=32.53, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:36:08,630 INFO:Fan activated for 60 seconds
+2025-04-17 16:36:08,631 INFO:Readings: Temp=31.51, Humidity=83.11, Rice=30.48, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:36:13,631 INFO:Heater activated (temp=26.8°C)
+2025-04-17 16:36:13,635 INFO:Humidifier deactivated (humidity=89.79%)
+2025-04-17 16:36:13,636 INFO:Readings: Temp=26.8, Humidity=89.79, Rice=28.13, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:36:18,637 INFO:Readings: Temp=25.04, Humidity=86.47, Rice=27.01, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:36:23,640 INFO:Humidifier activated (humidity=77.71%)
+2025-04-17 16:36:23,642 INFO:Readings: Temp=27.84, Humidity=77.71, Rice=27.85, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:36:28,642 INFO:Heater deactivated (temp=32.63°C)
+2025-04-17 16:36:28,643 INFO:Readings: Temp=32.63, Humidity=75.51, Rice=30.1, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:36:33,645 INFO:Readings: Temp=35.0, Humidity=82.89, Rice=32.29, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:36:38,645 INFO:Humidifier deactivated (humidity=89.73%)
+2025-04-17 16:36:38,646 INFO:Readings: Temp=32.77, Humidity=89.73, Rice=32.97, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:36:43,647 INFO:Heater activated (temp=27.99°C)
+2025-04-17 16:36:43,650 INFO:Readings: Temp=27.99, Humidity=86.67, Rice=31.71, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:36:48,651 INFO:Humidifier activated (humidity=77.89%)
+2025-04-17 16:36:48,654 INFO:Readings: Temp=25.06, Humidity=77.89, Rice=29.32, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:36:53,658 INFO:Readings: Temp=26.68, Humidity=75.43, Rice=27.38, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:36:58,660 INFO:Readings: Temp=31.36, Humidity=82.67, Rice=27.16, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:37:03,660 INFO:Heater deactivated (temp=34.78°C)
+2025-04-17 16:37:03,661 INFO:Humidifier deactivated (humidity=89.67%)
+2025-04-17 16:37:03,661 INFO:Readings: Temp=34.78, Humidity=89.67, Rice=28.8, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:37:08,661 INFO:Fan deactivated
+2025-04-17 16:37:08,662 INFO:Readings: Temp=33.81, Humidity=86.85, Rice=31.23, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:37:13,663 INFO:Humidifier activated (humidity=78.07%)
+2025-04-17 16:37:13,664 INFO:Readings: Temp=29.33, Humidity=78.07, Rice=32.85, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:37:18,664 INFO:Heater activated (temp=25.47°C)
+2025-04-17 16:37:18,665 INFO:Readings: Temp=25.47, Humidity=75.36, Rice=32.61, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:37:23,666 INFO:Readings: Temp=25.77, Humidity=82.43, Rice=30.65, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:37:28,667 INFO:Humidifier deactivated (humidity=89.6%)
+2025-04-17 16:37:28,668 INFO:Readings: Temp=29.96, Humidity=89.6, Rice=28.27, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:37:33,669 INFO:Heater deactivated (temp=34.19°C)
+2025-04-17 16:37:33,670 INFO:Readings: Temp=34.19, Humidity=87.04, Rice=27.02, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:37:38,671 INFO:Humidifier activated (humidity=78.26%)
+2025-04-17 16:37:38,671 INFO:Readings: Temp=34.56, Humidity=78.26, Rice=27.72, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:37:43,673 INFO:Readings: Temp=30.74, Humidity=75.29, Rice=29.92, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:37:48,674 INFO:Heater activated (temp=26.24°C)
+2025-04-17 16:37:48,675 INFO:Readings: Temp=26.24, Humidity=82.2, Rice=32.17, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:37:53,675 INFO:Humidifier deactivated (humidity=89.52%)
+2025-04-17 16:37:53,676 INFO:Readings: Temp=25.2, Humidity=89.52, Rice=32.99, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:37:58,677 INFO:Readings: Temp=28.58, Humidity=87.22, Rice=31.86, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:38:03,678 INFO:Heater deactivated (temp=33.27°C)
+2025-04-17 16:38:03,679 INFO:Humidifier activated (humidity=78.46%)
+2025-04-17 16:38:03,679 INFO:Readings: Temp=33.27, Humidity=78.46, Rice=29.51, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:38:08,681 INFO:Readings: Temp=34.95, Humidity=75.23, Rice=27.48, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:38:13,682 INFO:Readings: Temp=32.08, Humidity=81.96, Rice=27.1, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:38:18,683 INFO:Heater activated (temp=27.3°C)
+2025-04-17 16:38:18,683 INFO:Humidifier deactivated (humidity=89.43%)
+2025-04-17 16:38:18,684 INFO:Readings: Temp=27.3, Humidity=89.43, Rice=28.63, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:38:23,685 INFO:Readings: Temp=25.0, Humidity=87.4, Rice=31.05, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:38:28,686 INFO:Humidifier activated (humidity=78.66%)
+2025-04-17 16:38:28,687 INFO:Readings: Temp=27.3, Humidity=78.66, Rice=32.79, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:38:33,688 INFO:Heater deactivated (temp=32.09°C)
+2025-04-17 16:38:33,689 INFO:Readings: Temp=32.09, Humidity=75.18, Rice=32.7, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:38:38,690 INFO:Readings: Temp=34.95, Humidity=81.73, Rice=30.84, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:38:43,691 INFO:Humidifier deactivated (humidity=89.34%)
+2025-04-17 16:38:43,692 INFO:Readings: Temp=33.26, Humidity=89.34, Rice=28.43, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:38:48,693 INFO:Readings: Temp=28.57, Humidity=87.58, Rice=27.05, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:38:53,694 INFO:Heater activated (temp=25.2°C)
+2025-04-17 16:38:53,695 INFO:Humidifier activated (humidity=78.86%)
+2025-04-17 16:38:53,698 INFO:Readings: Temp=25.2, Humidity=78.86, Rice=27.61, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:38:58,699 INFO:Readings: Temp=26.24, Humidity=75.13, Rice=29.73, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:39:03,700 INFO:Readings: Temp=30.75, Humidity=81.5, Rice=32.03, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:39:08,701 INFO:Fan activated for 60 seconds
+2025-04-17 16:39:08,701 INFO:Heater deactivated (temp=34.56°C)
+2025-04-17 16:39:08,701 INFO:Humidifier deactivated (humidity=89.24%)
+2025-04-17 16:39:08,702 INFO:Readings: Temp=34.56, Humidity=89.24, Rice=33.0, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:39:13,706 INFO:Readings: Temp=34.18, Humidity=87.74, Rice=32.0, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:39:18,707 INFO:Humidifier activated (humidity=79.06%)
+2025-04-17 16:39:18,710 INFO:Readings: Temp=29.95, Humidity=79.06, Rice=29.69, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:39:23,710 INFO:Heater activated (temp=25.76°C)
+2025-04-17 16:39:23,714 INFO:Readings: Temp=25.76, Humidity=75.09, Rice=27.58, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:39:28,717 INFO:Readings: Temp=25.48, Humidity=81.28, Rice=27.06, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:39:33,718 INFO:Humidifier deactivated (humidity=89.14%)
+2025-04-17 16:39:33,719 INFO:Readings: Temp=29.35, Humidity=89.14, Rice=28.47, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:39:38,720 INFO:Heater deactivated (temp=33.82°C)
+2025-04-17 16:39:38,721 INFO:Readings: Temp=33.82, Humidity=87.9, Rice=30.88, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:39:43,722 INFO:Humidifier activated (humidity=79.26%)
+2025-04-17 16:39:43,723 INFO:Readings: Temp=34.78, Humidity=79.26, Rice=32.72, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:39:48,724 INFO:Readings: Temp=31.33, Humidity=75.06, Rice=32.77, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:39:53,726 INFO:Heater activated (temp=26.66°C)
+2025-04-17 16:39:53,728 INFO:Readings: Temp=26.66, Humidity=81.06, Rice=31.01, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:39:58,728 INFO:Humidifier deactivated (humidity=89.03%)
+2025-04-17 16:39:58,730 INFO:Readings: Temp=25.06, Humidity=89.03, Rice=28.59, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:40:03,731 INFO:Readings: Temp=28.01, Humidity=88.05, Rice=27.09, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:40:08,732 INFO:Fan deactivated
+2025-04-17 16:40:08,732 INFO:Heater deactivated (temp=32.78°C)
+2025-04-17 16:40:08,735 INFO:Humidifier activated (humidity=79.47%)
+2025-04-17 16:40:08,736 INFO:Readings: Temp=32.78, Humidity=79.47, Rice=27.5, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:40:13,738 INFO:Readings: Temp=35.0, Humidity=75.04, Rice=29.55, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:40:18,741 INFO:Readings: Temp=32.61, Humidity=80.84, Rice=31.9, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:40:23,742 INFO:Heater activated (temp=27.82°C)
+2025-04-17 16:40:23,742 INFO:Humidifier deactivated (humidity=88.92%)
+2025-04-17 16:40:23,745 INFO:Readings: Temp=27.82, Humidity=88.92, Rice=33.0, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:40:28,750 INFO:Readings: Temp=25.04, Humidity=88.2, Rice=32.13, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:40:33,751 INFO:Humidifier activated (humidity=79.66%)
+2025-04-17 16:40:33,752 INFO:Readings: Temp=26.82, Humidity=79.66, Rice=29.87, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:40:38,753 INFO:Readings: Temp=31.53, Humidity=75.02, Rice=27.69, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:40:43,754 INFO:Heater deactivated (temp=34.83°C)
+2025-04-17 16:40:43,755 INFO:Readings: Temp=34.83, Humidity=80.63, Rice=27.03, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:40:48,756 INFO:Humidifier deactivated (humidity=88.8%)
+2025-04-17 16:40:48,757 INFO:Readings: Temp=33.69, Humidity=88.8, Rice=28.32, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:40:53,758 INFO:Readings: Temp=29.15, Humidity=88.34, Rice=30.71, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:40:58,759 INFO:Heater activated (temp=25.4°C)
+2025-04-17 16:40:58,760 INFO:Humidifier activated (humidity=79.88%)
+2025-04-17 16:40:58,760 INFO:Readings: Temp=25.4, Humidity=79.88, Rice=32.63, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:41:03,761 INFO:Readings: Temp=25.87, Humidity=75.01, Rice=32.83, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:41:08,762 INFO:Readings: Temp=30.15, Humidity=80.4, Rice=31.18, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:41:13,763 INFO:Heater deactivated (temp=34.29°C)
+2025-04-17 16:41:13,764 INFO:Humidifier deactivated (humidity=88.67%)
+2025-04-17 16:41:13,767 INFO:Readings: Temp=34.29, Humidity=88.67, Rice=28.75, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:41:18,768 INFO:Readings: Temp=34.48, Humidity=88.49, Rice=27.14, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:41:23,775 INFO:Readings: Temp=30.55, Humidity=80.09, Rice=27.41, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:41:28,776 INFO:Heater activated (temp=26.11°C)
+2025-04-17 16:41:28,780 INFO:Humidifier activated (humidity=75.0%)
+2025-04-17 16:41:28,781 INFO:Readings: Temp=26.11, Humidity=75.0, Rice=29.38, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:41:33,782 INFO:Readings: Temp=25.26, Humidity=80.2, Rice=31.76, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:41:38,783 INFO:Humidifier deactivated (humidity=88.55%)
+2025-04-17 16:41:38,784 INFO:Readings: Temp=28.77, Humidity=88.55, Rice=32.98, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:41:43,785 INFO:Heater deactivated (temp=33.41°C)
+2025-04-17 16:41:43,786 INFO:Readings: Temp=33.41, Humidity=88.61, Rice=32.25, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:41:48,788 INFO:Readings: Temp=34.92, Humidity=80.3, Rice=30.05, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:41:53,790 INFO:Humidifier activated (humidity=75.0%)
+2025-04-17 16:41:53,792 INFO:Readings: Temp=31.9, Humidity=75.0, Rice=27.81, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:41:58,793 INFO:Heater activated (temp=27.13°C)
+2025-04-17 16:41:58,794 INFO:Readings: Temp=27.13, Humidity=79.98, Rice=27.01, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:42:03,796 INFO:Humidifier deactivated (humidity=88.41%)
+2025-04-17 16:42:03,798 INFO:Readings: Temp=25.0, Humidity=88.41, Rice=28.17, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:42:08,799 INFO:Fan activated for 60 seconds
+2025-04-17 16:42:08,802 INFO:Readings: Temp=27.48, Humidity=88.74, Rice=30.53, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:42:13,803 INFO:Heater deactivated (temp=32.27°C)
+2025-04-17 16:42:13,804 INFO:Readings: Temp=32.27, Humidity=80.51, Rice=32.54, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:42:18,806 INFO:Humidifier activated (humidity=75.01%)
+2025-04-17 16:42:18,808 INFO:Readings: Temp=34.98, Humidity=75.01, Rice=32.89, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:42:23,809 INFO:Readings: Temp=33.1, Humidity=79.78, Rice=31.34, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:42:28,812 INFO:Humidifier deactivated (humidity=88.28%)
+2025-04-17 16:42:28,813 INFO:Readings: Temp=28.37, Humidity=88.28, Rice=28.91, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:42:33,814 INFO:Heater activated (temp=25.14°C)
+2025-04-17 16:42:33,815 INFO:Readings: Temp=25.14, Humidity=88.86, Rice=27.2, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:42:38,816 INFO:Readings: Temp=26.38, Humidity=80.73, Rice=27.32, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:42:43,817 INFO:Humidifier activated (humidity=75.03%)
+2025-04-17 16:42:43,818 INFO:Readings: Temp=30.95, Humidity=75.03, Rice=29.2, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:42:48,819 INFO:Heater deactivated (temp=34.64°C)
+2025-04-17 16:42:48,820 INFO:Readings: Temp=34.64, Humidity=79.56, Rice=31.61, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:42:53,821 INFO:Humidifier deactivated (humidity=88.13%)
+2025-04-17 16:42:53,823 INFO:Readings: Temp=34.07, Humidity=88.13, Rice=32.96, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:42:58,825 INFO:Readings: Temp=29.75, Humidity=88.98, Rice=32.37, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:43:03,829 INFO:Heater activated (temp=25.66°C)
+2025-04-17 16:43:03,831 INFO:Readings: Temp=25.66, Humidity=80.95, Rice=30.22, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:43:08,831 INFO:Fan deactivated
+2025-04-17 16:43:08,832 INFO:Humidifier activated (humidity=75.05%)
+2025-04-17 16:43:08,833 INFO:Readings: Temp=25.57, Humidity=75.05, Rice=27.94, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:43:13,834 INFO:Readings: Temp=29.56, Humidity=79.36, Rice=27.0, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:43:18,835 INFO:Heater deactivated (temp=33.95°C)
+2025-04-17 16:43:18,836 INFO:Humidifier deactivated (humidity=87.98%)
+2025-04-17 16:43:18,836 INFO:Readings: Temp=33.95, Humidity=87.98, Rice=28.03, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:43:23,838 INFO:Readings: Temp=34.71, Humidity=89.09, Rice=30.35, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:43:28,839 INFO:Readings: Temp=31.14, Humidity=81.17, Rice=32.44, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:43:33,840 INFO:Heater activated (temp=26.52°C)
+2025-04-17 16:43:33,841 INFO:Humidifier activated (humidity=75.08%)
+2025-04-17 16:43:33,841 INFO:Readings: Temp=26.52, Humidity=75.08, Rice=32.93, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:43:38,843 INFO:Readings: Temp=25.1, Humidity=79.15, Rice=31.5, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:43:43,844 INFO:Humidifier deactivated (humidity=87.81%)
+2025-04-17 16:43:43,845 INFO:Readings: Temp=28.19, Humidity=87.81, Rice=29.08, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:43:48,846 INFO:Heater deactivated (temp=32.95°C)
+2025-04-17 16:43:48,847 INFO:Readings: Temp=32.95, Humidity=89.2, Rice=27.27, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:43:53,848 INFO:Readings: Temp=34.99, Humidity=81.4, Rice=27.25, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:43:58,849 INFO:Humidifier activated (humidity=75.11%)
+2025-04-17 16:43:58,850 INFO:Readings: Temp=32.44, Humidity=75.11, Rice=29.03, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:44:03,851 INFO:Heater activated (temp=27.65°C)
+2025-04-17 16:44:03,852 INFO:Readings: Temp=27.65, Humidity=78.94, Rice=31.45, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:44:08,852 INFO:Humidifier deactivated (humidity=87.65%)
+2025-04-17 16:44:08,854 INFO:Readings: Temp=25.02, Humidity=87.65, Rice=32.92, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:44:13,855 INFO:Readings: Temp=26.97, Humidity=89.3, Rice=32.48, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:44:18,856 INFO:Readings: Temp=31.71, Humidity=81.63, Rice=30.41, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:44:23,857 INFO:Heater deactivated (temp=34.88°C)
+2025-04-17 16:44:23,858 INFO:Humidifier activated (humidity=75.16%)
+2025-04-17 16:44:23,859 INFO:Readings: Temp=34.88, Humidity=75.16, Rice=28.07, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:44:28,860 INFO:Readings: Temp=33.56, Humidity=78.74, Rice=27.0, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:44:33,861 INFO:Humidifier deactivated (humidity=87.48%)
+2025-04-17 16:44:33,864 INFO:Readings: Temp=28.96, Humidity=87.48, Rice=27.9, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:44:38,865 INFO:Heater activated (temp=25.32°C)
+2025-04-17 16:44:38,866 INFO:Readings: Temp=25.32, Humidity=89.39, Rice=30.17, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:44:43,867 INFO:Readings: Temp=25.99, Humidity=81.86, Rice=32.33, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:44:48,869 INFO:Humidifier activated (humidity=75.21%)
+2025-04-17 16:44:48,873 INFO:Readings: Temp=30.34, Humidity=75.21, Rice=32.96, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:44:53,873 INFO:Heater deactivated (temp=34.38°C)
+2025-04-17 16:44:53,877 INFO:Readings: Temp=34.38, Humidity=78.55, Rice=31.65, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:44:58,878 INFO:Humidifier deactivated (humidity=87.31%)
+2025-04-17 16:44:58,879 INFO:Readings: Temp=34.39, Humidity=87.31, Rice=29.26, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:45:03,880 INFO:Readings: Temp=30.35, Humidity=89.48, Rice=27.35, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:45:08,880 INFO:Fan activated for 60 seconds
+2025-04-17 16:45:08,881 INFO:Heater activated (temp=25.99°C)
+2025-04-17 16:45:08,882 INFO:Readings: Temp=25.99, Humidity=82.08, Rice=27.18, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:45:13,883 INFO:Humidifier activated (humidity=75.26%)
+2025-04-17 16:45:13,884 INFO:Readings: Temp=25.32, Humidity=75.26, Rice=28.86, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:45:18,885 INFO:Readings: Temp=28.95, Humidity=78.36, Rice=31.29, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:45:23,886 INFO:Heater deactivated (temp=33.55°C)
+2025-04-17 16:45:23,886 INFO:Humidifier deactivated (humidity=87.13%)
+2025-04-17 16:45:23,887 INFO:Readings: Temp=33.55, Humidity=87.13, Rice=32.87, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:45:28,889 INFO:Readings: Temp=34.88, Humidity=89.56, Rice=32.57, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:45:33,890 INFO:Readings: Temp=31.72, Humidity=82.32, Rice=30.59, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:45:38,891 INFO:Heater activated (temp=26.98°C)
+2025-04-17 16:45:38,891 INFO:Humidifier activated (humidity=75.33%)
+2025-04-17 16:45:38,892 INFO:Readings: Temp=26.98, Humidity=75.33, Rice=28.22, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:45:43,893 INFO:Readings: Temp=25.02, Humidity=78.17, Rice=27.02, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:45:48,899 INFO:Humidifier deactivated (humidity=86.95%)
+2025-04-17 16:45:48,900 INFO:Readings: Temp=27.64, Humidity=86.95, Rice=27.77, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:45:53,901 INFO:Heater deactivated (temp=32.44°C)
+2025-04-17 16:45:53,904 INFO:Readings: Temp=32.44, Humidity=89.63, Rice=29.99, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:45:58,905 INFO:Readings: Temp=34.99, Humidity=82.54, Rice=32.21, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:46:03,905 INFO:Humidifier activated (humidity=75.39%)
+2025-04-17 16:46:03,911 INFO:Readings: Temp=32.95, Humidity=75.39, Rice=32.99, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:46:08,912 INFO:Fan deactivated
+2025-04-17 16:46:08,912 INFO:Readings: Temp=28.19, Humidity=77.99, Rice=31.8, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:46:13,913 INFO:Heater activated (temp=25.1°C)
+2025-04-17 16:46:13,913 INFO:Humidifier deactivated (humidity=86.77%)
+2025-04-17 16:46:13,913 INFO:Readings: Temp=25.1, Humidity=86.77, Rice=29.43, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:46:18,915 INFO:Readings: Temp=26.51, Humidity=89.7, Rice=27.44, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:46:23,916 INFO:Readings: Temp=31.13, Humidity=82.76, Rice=27.12, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:46:28,916 INFO:Heater deactivated (temp=34.71°C)
+2025-04-17 16:46:28,916 INFO:Humidifier activated (humidity=75.47%)
+2025-04-17 16:46:28,917 INFO:Readings: Temp=34.71, Humidity=75.47, Rice=28.69, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:46:33,917 INFO:Readings: Temp=33.96, Humidity=77.81, Rice=31.12, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:46:38,918 INFO:Humidifier deactivated (humidity=86.57%)
+2025-04-17 16:46:38,919 INFO:Readings: Temp=29.56, Humidity=86.57, Rice=32.81, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:46:43,919 INFO:Heater activated (temp=25.57°C)
+2025-04-17 16:46:43,921 INFO:Readings: Temp=25.57, Humidity=89.76, Rice=32.66, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:46:48,921 INFO:Readings: Temp=25.65, Humidity=83.0, Rice=30.77, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:46:53,922 INFO:Humidifier activated (humidity=75.56%)
+2025-04-17 16:46:53,929 INFO:Readings: Temp=29.73, Humidity=75.56, Rice=28.37, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:46:58,930 INFO:Heater deactivated (temp=34.06°C)
+2025-04-17 16:46:58,930 INFO:Readings: Temp=34.06, Humidity=77.63, Rice=27.04, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:47:03,671 INFO:Received signal 2, shutting down
+2025-04-17 16:47:03,931 INFO:Cleaning up resources...
+2025-04-17 16:47:04,035 INFO:GPIO resources cleaned up
+2025-04-17 16:47:04,036 INFO:System shut down and resources cleaned up
+2025-04-17 16:47:08,719 INFO:Heater relay initialized on pin 27
+2025-04-17 16:47:08,720 INFO:Humidifier relay initialized on pin 22
+2025-04-17 16:47:08,720 INFO:Fan relay initialized on pin 17
+2025-04-17 16:47:08,720 INFO:Koji chamber control system initialized successfully
+2025-04-17 16:47:08,720 INFO:Koji chamber control system started
+2025-04-17 16:47:08,720 INFO:Fan activated for 60 seconds
+2025-04-17 16:47:08,721 INFO:Readings: Temp=30.0, Humidity=89.62, Rice=32.99, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:47:13,722 INFO:Readings: Temp=34.21, Humidity=86.98, Rice=31.79, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:47:18,723 INFO:Humidifier activated (humidity=78.2%)
+2025-04-17 16:47:18,724 INFO:Readings: Temp=34.54, Humidity=78.2, Rice=29.43, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:47:23,725 INFO:Readings: Temp=30.7, Humidity=75.31, Rice=27.43, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:47:28,725 INFO:Heater activated (temp=26.21°C)
+2025-04-17 16:47:28,726 INFO:Readings: Temp=26.21, Humidity=82.27, Rice=27.12, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:47:33,726 INFO:Humidifier deactivated (humidity=89.54%)
+2025-04-17 16:47:33,727 INFO:Readings: Temp=25.21, Humidity=89.54, Rice=28.7, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:47:38,727 INFO:Readings: Temp=28.61, Humidity=87.17, Rice=31.13, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:47:43,728 INFO:Heater deactivated (temp=33.29°C)
+2025-04-17 16:47:43,729 INFO:Humidifier activated (humidity=78.4%)
+2025-04-17 16:47:43,732 INFO:Readings: Temp=33.29, Humidity=78.4, Rice=32.82, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:47:48,733 INFO:Readings: Temp=34.94, Humidity=75.25, Rice=32.66, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:47:53,737 INFO:Readings: Temp=32.04, Humidity=82.04, Rice=30.76, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:47:58,737 INFO:Heater activated (temp=27.26°C)
+2025-04-17 16:47:58,738 INFO:Humidifier deactivated (humidity=89.46%)
+2025-04-17 16:47:58,739 INFO:Readings: Temp=27.26, Humidity=89.46, Rice=28.36, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:48:03,739 INFO:Readings: Temp=25.0, Humidity=87.35, Rice=27.04, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:48:08,740 INFO:Fan deactivated
+2025-04-17 16:48:08,743 INFO:Humidifier activated (humidity=78.59%)
+2025-04-17 16:48:08,744 INFO:Readings: Temp=27.34, Humidity=78.59, Rice=27.66, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:48:13,744 INFO:Heater deactivated (temp=32.12°C)
+2025-04-17 16:48:13,745 INFO:Readings: Temp=32.12, Humidity=75.19, Rice=29.81, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:48:18,746 INFO:Readings: Temp=34.96, Humidity=81.81, Rice=32.09, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:48:23,748 INFO:Humidifier deactivated (humidity=89.37%)
+2025-04-17 16:48:23,749 INFO:Readings: Temp=33.23, Humidity=89.37, Rice=33.0, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:48:28,750 INFO:Readings: Temp=28.53, Humidity=87.52, Rice=31.94, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:48:33,750 INFO:Heater activated (temp=25.18°C)
+2025-04-17 16:48:33,751 INFO:Humidifier activated (humidity=78.79%)
+2025-04-17 16:48:33,751 INFO:Readings: Temp=25.18, Humidity=78.79, Rice=29.61, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:48:38,752 INFO:Readings: Temp=26.27, Humidity=75.14, Rice=27.53, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:48:43,753 INFO:Readings: Temp=30.78, Humidity=81.57, Rice=27.08, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:48:48,753 INFO:Heater deactivated (temp=34.58°C)
+2025-04-17 16:48:48,753 INFO:Humidifier deactivated (humidity=89.27%)
+2025-04-17 16:48:48,754 INFO:Readings: Temp=34.58, Humidity=89.27, Rice=28.53, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:48:53,754 INFO:Readings: Temp=34.16, Humidity=87.7, Rice=30.95, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:48:58,755 INFO:Humidifier activated (humidity=79.0%)
+2025-04-17 16:48:58,755 INFO:Readings: Temp=29.92, Humidity=79.0, Rice=32.75, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:49:03,756 INFO:Heater activated (temp=25.75°C)
+2025-04-17 16:49:03,756 INFO:Readings: Temp=25.75, Humidity=75.1, Rice=32.74, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:49:08,757 INFO:Readings: Temp=25.49, Humidity=81.33, Rice=30.94, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:49:13,757 INFO:Humidifier deactivated (humidity=89.16%)
+2025-04-17 16:49:13,758 INFO:Readings: Temp=29.38, Humidity=89.16, Rice=28.52, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:49:18,759 INFO:Heater deactivated (temp=33.84°C)
+2025-04-17 16:49:18,762 INFO:Readings: Temp=33.84, Humidity=87.87, Rice=27.07, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:49:23,763 INFO:Humidifier activated (humidity=79.21%)
+2025-04-17 16:49:23,764 INFO:Readings: Temp=34.77, Humidity=79.21, Rice=27.54, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:49:28,766 INFO:Readings: Temp=31.31, Humidity=75.07, Rice=29.63, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:49:33,767 INFO:Heater activated (temp=26.65°C)
+2025-04-17 16:49:33,809 INFO:Readings: Temp=26.65, Humidity=81.11, Rice=31.95, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:49:38,810 INFO:Humidifier deactivated (humidity=89.09%)
+2025-04-17 16:49:38,811 INFO:Readings: Temp=25.07, Humidity=89.09, Rice=33.0, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:49:43,813 INFO:Readings: Temp=28.07, Humidity=87.97, Rice=32.06, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:49:48,814 INFO:Heater deactivated (temp=32.84°C)
+2025-04-17 16:49:48,814 INFO:Humidifier activated (humidity=79.35%)
+2025-04-17 16:49:48,815 INFO:Readings: Temp=32.84, Humidity=79.35, Rice=29.78, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:49:53,816 INFO:Readings: Temp=35.0, Humidity=75.05, Rice=27.63, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:49:58,817 INFO:Readings: Temp=32.56, Humidity=80.96, Rice=27.04, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:50:03,818 INFO:Heater activated (temp=27.77°C)
+2025-04-17 16:50:03,818 INFO:Humidifier deactivated (humidity=88.98%)
+2025-04-17 16:50:03,819 INFO:Readings: Temp=27.77, Humidity=88.98, Rice=28.39, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:50:08,820 INFO:Fan activated for 60 seconds
+2025-04-17 16:50:08,821 INFO:Readings: Temp=25.03, Humidity=88.13, Rice=30.79, Fan=1, Heater=1, Humidifier=0
+2025-04-17 16:50:13,821 INFO:Humidifier activated (humidity=79.57%)
+2025-04-17 16:50:13,822 INFO:Readings: Temp=26.86, Humidity=79.57, Rice=32.68, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:50:18,823 INFO:Readings: Temp=31.58, Humidity=75.02, Rice=32.8, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:50:23,824 INFO:Heater deactivated (temp=34.85°C)
+2025-04-17 16:50:23,825 INFO:Readings: Temp=34.85, Humidity=80.73, Rice=31.09, Fan=1, Heater=0, Humidifier=1
+2025-04-17 16:50:28,826 INFO:Humidifier deactivated (humidity=88.86%)
+2025-04-17 16:50:28,827 INFO:Readings: Temp=33.65, Humidity=88.86, Rice=28.67, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:50:33,828 INFO:Readings: Temp=29.1, Humidity=88.28, Rice=27.11, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:50:38,829 INFO:Heater activated (temp=25.37°C)
+2025-04-17 16:50:38,830 INFO:Humidifier activated (humidity=79.78%)
+2025-04-17 16:50:38,830 INFO:Readings: Temp=25.37, Humidity=79.78, Rice=27.45, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:50:43,832 INFO:Readings: Temp=25.91, Humidity=75.01, Rice=29.46, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:50:48,833 INFO:Readings: Temp=30.2, Humidity=80.5, Rice=31.82, Fan=1, Heater=1, Humidifier=1
+2025-04-17 16:50:53,834 INFO:Heater deactivated (temp=34.31°C)
+2025-04-17 16:50:53,835 INFO:Humidifier deactivated (humidity=88.73%)
+2025-04-17 16:50:53,835 INFO:Readings: Temp=34.31, Humidity=88.73, Rice=32.99, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:50:58,837 INFO:Readings: Temp=34.46, Humidity=88.42, Rice=32.2, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:51:03,838 INFO:Readings: Temp=30.5, Humidity=80.0, Rice=29.96, Fan=1, Heater=0, Humidifier=0
+2025-04-17 16:51:08,839 INFO:Fan deactivated
+2025-04-17 16:51:08,840 INFO:Heater activated (temp=26.08°C)
+2025-04-17 16:51:08,840 INFO:Humidifier activated (humidity=75.0%)
+2025-04-17 16:51:08,841 INFO:Readings: Temp=26.08, Humidity=75.0, Rice=27.75, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:51:13,842 INFO:Readings: Temp=25.27, Humidity=80.28, Rice=27.02, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:51:18,843 INFO:Humidifier deactivated (humidity=88.6%)
+2025-04-17 16:51:18,844 INFO:Readings: Temp=28.81, Humidity=88.6, Rice=28.24, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:51:23,845 INFO:Heater deactivated (temp=33.44°C)
+2025-04-17 16:51:23,846 INFO:Readings: Temp=33.44, Humidity=88.56, Rice=30.61, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:51:28,847 INFO:Readings: Temp=34.91, Humidity=80.22, Rice=32.59, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:51:33,848 INFO:Humidifier activated (humidity=75.0%)
+2025-04-17 16:51:33,849 INFO:Readings: Temp=31.86, Humidity=75.0, Rice=32.86, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:51:38,849 INFO:Heater activated (temp=27.1°C)
+2025-04-17 16:51:38,850 INFO:Readings: Temp=27.1, Humidity=80.05, Rice=31.26, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:51:43,851 INFO:Humidifier deactivated (humidity=88.46%)
+2025-04-17 16:51:43,852 INFO:Readings: Temp=25.01, Humidity=88.46, Rice=28.84, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:51:48,854 INFO:Readings: Temp=27.51, Humidity=88.7, Rice=27.17, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:51:53,855 INFO:Heater deactivated (temp=32.3°C)
+2025-04-17 16:51:53,856 INFO:Readings: Temp=32.3, Humidity=80.44, Rice=27.36, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:51:58,857 INFO:Humidifier activated (humidity=75.01%)
+2025-04-17 16:51:58,858 INFO:Readings: Temp=34.98, Humidity=75.01, Rice=29.28, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:52:03,859 INFO:Readings: Temp=33.07, Humidity=79.84, Rice=31.67, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:52:08,860 INFO:Humidifier deactivated (humidity=88.32%)
+2025-04-17 16:52:08,862 INFO:Readings: Temp=28.34, Humidity=88.32, Rice=32.97, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:52:13,862 INFO:Heater activated (temp=25.13°C)
+2025-04-17 16:52:13,878 INFO:Readings: Temp=25.13, Humidity=88.83, Rice=32.32, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:52:18,879 INFO:Readings: Temp=26.41, Humidity=80.64, Rice=30.14, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:52:23,880 INFO:Humidifier activated (humidity=75.02%)
+2025-04-17 16:52:23,881 INFO:Readings: Temp=31.0, Humidity=75.02, Rice=27.88, Fan=0, Heater=1, Humidifier=1
+2025-04-17 16:52:28,882 INFO:Heater deactivated (temp=34.66°C)
+2025-04-17 16:52:28,883 INFO:Readings: Temp=34.66, Humidity=79.65, Rice=27.0, Fan=0, Heater=0, Humidifier=1
+2025-04-17 16:52:33,884 INFO:Humidifier deactivated (humidity=88.18%)
+2025-04-17 16:52:33,885 INFO:Readings: Temp=34.04, Humidity=88.18, Rice=28.1, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:52:38,886 INFO:Readings: Temp=29.7, Humidity=88.93, Rice=30.44, Fan=0, Heater=0, Humidifier=0
+2025-04-17 16:52:43,887 INFO:Heater activated (temp=25.64°C)
+2025-04-17 16:52:43,889 INFO:Readings: Temp=25.64, Humidity=80.87, Rice=32.49, Fan=0, Heater=1, Humidifier=0
+2025-04-17 16:52:48,890 INFO:Humidifier activated (humidity=75.04%)
+2025-04-17 16:52:48,894 INFO:Readings: Temp=25.59, Humidity=75.04, Rice=32.91, Fan=0, Heater=1, Humidifier=1

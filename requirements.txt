@@ -1,0 +1,2 @@
+adafruit-circuitpython-sht31d
+RPi.GPIO
